@@ -1,0 +1,1614 @@
+{
+    "artist": {
+        "id": "3ade68b5g8227eda3",
+        "desc": "Iron Maiden",
+        "url": "\/iron-maiden\/",
+        "pic_small": "\/iron-maiden\/images\/profile.jpg",
+        "pic_medium": "\/iron-maiden\/images\/iron-maiden.jpg",
+        "rank": {
+            "pos": "134",
+            "period": 202204,
+            "views": "2401",
+            "uniques": "1391",
+            "points": "12.0"
+        },
+        "genre": [
+            {
+                "name": "Heavy Metal",
+                "url": "\/browse\/style\/heavy-metal.html"
+            },
+            {
+                "name": "Rock",
+                "url": "\/browse\/style\/rock.html"
+            },
+            {
+                "name": "Hard Rock",
+                "url": "\/browse\/style\/hard-rock.html"
+            }
+        ],
+        "related": [
+            {
+                "id": "3ade68b5ge0a8eda3",
+                "name": "Bruce Dickinson",
+                "url": "\/bruce-dickinson\/"
+            },
+            {
+                "id": "3ade68b5gd717eda3",
+                "name": "Helloween",
+                "url": "\/helloween\/"
+            },
+            {
+                "id": "3ade68b5g7057eda3",
+                "name": "Megadeth",
+                "url": "\/megadeth\/"
+            },
+            {
+                "id": "3ade68b5g7257eda3",
+                "name": "Metallica",
+                "url": "\/metallica\/"
+            },
+            {
+                "id": "3ade68b5gfa27eda3",
+                "name": "Judas Priest",
+                "url": "\/judas-priest\/"
+            },
+            {
+                "id": "3ade68b5g5a57eda3",
+                "name": "Mot\u00f6rhead",
+                "url": "\/motorhead\/"
+            },
+            {
+                "id": "3ade68b4g9996eda3",
+                "name": "Angra",
+                "url": "\/angra\/"
+            },
+            {
+                "id": "3ade68b4gdda6eda3",
+                "name": "Black Sabbath",
+                "url": "\/black-sabbath\/"
+            },
+            {
+                "id": "3ade68b5gf087eda3",
+                "name": "Rammstein",
+                "url": "\/rammstein\/"
+            },
+            {
+                "id": "3ade68b5gb1b8eda3",
+                "name": "Ozzy Osbourne",
+                "url": "\/ozzy-osbourne\/"
+            }
+        ],
+        "toplyrics": {
+            "item": [
+                {
+                    "id": "3ade68b6gb46beda3",
+                    "desc": "Fear Of The Dark",
+                    "url": "\/iron-maiden\/fear-of-the-dark.html"
+                },
+                {
+                    "id": "3ade68b8g736001b3",
+                    "desc": "The Writing On The Wall",
+                    "url": "\/iron-maiden\/the-writing-on-the-wall.html"
+                },
+                {
+                    "id": "3ade68b6g476beda3",
+                    "desc": "Wasting Love",
+                    "url": "\/iron-maiden\/wasting-love.html"
+                },
+                {
+                    "id": "3ade68b6g736beda3",
+                    "desc": "The Number Of The Beast",
+                    "url": "\/iron-maiden\/the-number-of-the-beast.html"
+                },
+                {
+                    "id": "3ade68b6g356beda3",
+                    "desc": "The Trooper",
+                    "url": "\/iron-maiden\/the-trooper.html"
+                },
+                {
+                    "id": "3ade68b7g7bd98ea3",
+                    "desc": "Churchill's Speech",
+                    "url": "\/iron-maiden\/churchills-speech.html"
+                },
+                {
+                    "id": "3ade68b6g256beda3",
+                    "desc": "Wasted Years",
+                    "url": "\/iron-maiden\/wasted-years.html"
+                },
+                {
+                    "id": "3ade68b6ga409fda3",
+                    "desc": "Dance Of Death",
+                    "url": "\/iron-maiden\/dance-of-death.html"
+                },
+                {
+                    "id": "3ade68b6gb36beda3",
+                    "desc": "Hallowed Be Thy Name",
+                    "url": "\/iron-maiden\/hallowed-be-thy-name.html"
+                },
+                {
+                    "id": "3ade68b6ge3fafda3",
+                    "desc": "The Clansman",
+                    "url": "\/iron-maiden\/the-clansman.html"
+                },
+                {
+                    "id": "3ade68b7g9b055ea3",
+                    "desc": "Iron Maiden",
+                    "url": "\/iron-maiden\/iron-maiden.html"
+                },
+                {
+                    "id": "3ade68b6gd36beda3",
+                    "desc": "2 Minutes To Midnight",
+                    "url": "\/iron-maiden\/2-minutes-to-midnight.html"
+                },
+                {
+                    "id": "3ade68b8ga1b301b3",
+                    "desc": "Senjutsu",
+                    "url": "\/iron-maiden\/senjutsu.html"
+                },
+                {
+                    "id": "3ade68b6g836beda3",
+                    "desc": "Run To The Hills",
+                    "url": "\/iron-maiden\/run-to-the-hills.html"
+                },
+                {
+                    "id": "3ade68b8g10c301b3",
+                    "desc": "Hell On Earth",
+                    "url": "\/iron-maiden\/hell-on-earth.html"
+                },
+                {
+                    "id": "3ade68b6gc36beda3",
+                    "desc": "Aces High",
+                    "url": "\/iron-maiden\/aces-high.html"
+                },
+                {
+                    "id": "3ade68b8g214301b3",
+                    "desc": "Stratego",
+                    "url": "\/iron-maiden\/stratego.html"
+                },
+                {
+                    "id": "3ade68b6g846beda3",
+                    "desc": "Alexander The Great",
+                    "url": "\/iron-maiden\/alexander-the-great.html"
+                },
+                {
+                    "id": "3ade68b6g456beda3",
+                    "desc": "Flight Of Icarus",
+                    "url": "\/iron-maiden\/flight-of-icarus.html"
+                },
+                {
+                    "id": "3ade68b6ge56beda3",
+                    "desc": "Seventh Son Of A Seventh Son",
+                    "url": "\/iron-maiden\/seventh-son-of-a-seventh-son.html"
+                },
+                {
+                    "id": "3ade68b8gffb301b3",
+                    "desc": "Death of the Celts",
+                    "url": "\/iron-maiden\/death-of-the-celts.html"
+                },
+                {
+                    "id": "3ade68b6g146beda3",
+                    "desc": "Powerslave",
+                    "url": "\/iron-maiden\/powerslave.html"
+                },
+                {
+                    "id": "3ade68b7ge8f40ea3",
+                    "desc": "Stranger in a Strange Land",
+                    "url": "\/iron-maiden\/stranger-in-a-strange-land.html"
+                },
+                {
+                    "id": "3ade68b8g00c301b3",
+                    "desc": "The Parchment",
+                    "url": "\/iron-maiden\/the-parchment.html"
+                },
+                {
+                    "id": "3ade68b6g436beda3",
+                    "desc": "Children Of The Damned",
+                    "url": "\/iron-maiden\/children-of-the-damned.html"
+                }
+            ]
+        },
+        "lyrics": {
+            "item": [
+                {
+                    "id": "3ade68b7gb6f40ea3",
+                    "desc": "2 AM",
+                    "url": "\/iron-maiden\/2-am.html",
+                    "turl": "\/iron-maiden\/2-am-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gd36beda3",
+                    "desc": "2 Minutes To Midnight",
+                    "url": "\/iron-maiden\/2-minutes-to-midnight.html",
+                    "turl": "\/iron-maiden\/2-minutes-to-midnight-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g636beda3",
+                    "desc": "22 Acacia Avenue",
+                    "url": "\/iron-maiden\/22-acacia-avenue.html",
+                    "turl": "\/iron-maiden\/22-acacia-avenue-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gc36beda3",
+                    "desc": "Aces High",
+                    "url": "\/iron-maiden\/aces-high.html",
+                    "turl": "\/iron-maiden\/aces-high-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g946beda3",
+                    "desc": "Afraid To Shoot Strangers",
+                    "url": "\/iron-maiden\/afraid-to-shoot-strangers.html",
+                    "turl": "\/iron-maiden\/afraid-to-shoot-strangers-traducao.html"
+                },
+                {
+                    "id": "3ade68b7ge6f40ea3",
+                    "desc": "Age Of Innocence",
+                    "url": "\/iron-maiden\/age-of-innocence.html",
+                    "turl": "\/iron-maiden\/age-of-innocence-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g846beda3",
+                    "desc": "Alexander The Great",
+                    "url": "\/iron-maiden\/alexander-the-great.html",
+                    "turl": "\/iron-maiden\/alexander-the-great-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gf5fafda3",
+                    "desc": "All In Your Mind",
+                    "url": "\/iron-maiden\/all-in-your-mind.html",
+                    "turl": "\/iron-maiden\/all-in-your-mind-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g236beda3",
+                    "desc": "Another Life",
+                    "url": "\/iron-maiden\/another-life.html",
+                    "turl": "\/iron-maiden\/another-life-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g046beda3",
+                    "desc": "Back In The Village",
+                    "url": "\/iron-maiden\/back-in-the-village.html",
+                    "turl": "\/iron-maiden\/back-in-the-village-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g076beda3",
+                    "desc": "Be Quick Or Be Dead",
+                    "url": "\/iron-maiden\/be-quick-or-be-dead.html",
+                    "turl": "\/iron-maiden\/be-quick-or-be-dead-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g26fafda3",
+                    "desc": "Black Bart Blues",
+                    "url": "\/iron-maiden\/black-bart-blues.html"
+                },
+                {
+                    "id": "3ade68b6g466beda3",
+                    "desc": "Blood Brothers",
+                    "url": "\/iron-maiden\/blood-brothers.html"
+                },
+                {
+                    "id": "3ade68b7g27f40ea3",
+                    "desc": "Blood On The World's Hand",
+                    "url": "\/iron-maiden\/blood-on-the-worlds-hand.html",
+                    "turl": "\/iron-maiden\/blood-on-the-worlds-hand-traducao.html"
+                },
+                {
+                    "id": "3ade68b7g17f40ea3",
+                    "desc": "Blood On The World's Hands",
+                    "url": "\/iron-maiden\/blood-on-the-worlds-hands.html",
+                    "turl": "\/iron-maiden\/blood-on-the-worlds-hands-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g546beda3",
+                    "desc": "Brave New World",
+                    "url": "\/iron-maiden\/brave-new-world.html",
+                    "turl": "\/iron-maiden\/brave-new-world-traducao.html"
+                },
+                {
+                    "id": "3ade68b7g2f74bea3",
+                    "desc": "Brighter Than A Thousand Suns",
+                    "url": "\/iron-maiden\/brighter-than-a-thousand-suns.html",
+                    "turl": "\/iron-maiden\/brighter-than-a-thousand-suns-traducao.html"
+                },
+                {
+                    "id": "3ade68b7g37f40ea3",
+                    "desc": "Bring Your Daughter... To The Slaughter",
+                    "url": "\/iron-maiden\/bring-your-daughter-to-the-slaughter.html",
+                    "turl": "\/iron-maiden\/bring-your-daughter-to-the-slaughter-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g66fafda3",
+                    "desc": "Burning Ambition",
+                    "url": "\/iron-maiden\/burning-ambition.html",
+                    "turl": "\/iron-maiden\/burning-ambition-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g646beda3",
+                    "desc": "Can I Play With Madness",
+                    "url": "\/iron-maiden\/can-i-play-with-madness.html",
+                    "turl": "\/iron-maiden\/can-i-play-with-madness-traducao.html"
+                },
+                {
+                    "id": "3ade68b7g77f40ea3",
+                    "desc": "Caught Somewhere in Time",
+                    "url": "\/iron-maiden\/caught-somewhere-in-time.html",
+                    "turl": "\/iron-maiden\/caught-somewhere-in-time-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g96fafda3",
+                    "desc": "Chains Of Misery",
+                    "url": "\/iron-maiden\/chains-of-misery.html",
+                    "turl": "\/iron-maiden\/chains-of-misery-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g856beda3",
+                    "desc": "Charlotte The Harlot",
+                    "url": "\/iron-maiden\/charlotte-the-harlot.html",
+                    "turl": "\/iron-maiden\/charlotte-the-harlot-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gc6fafda3",
+                    "desc": "Childhood's End",
+                    "url": "\/iron-maiden\/childhoods-end.html",
+                    "turl": "\/iron-maiden\/childhoods-end-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g436beda3",
+                    "desc": "Children Of The Damned",
+                    "url": "\/iron-maiden\/children-of-the-damned.html",
+                    "turl": "\/iron-maiden\/children-of-the-damned-traducao.html"
+                },
+                {
+                    "id": "3ade68b7g7bd98ea3",
+                    "desc": "Churchill's Speech",
+                    "url": "\/iron-maiden\/churchills-speech.html",
+                    "turl": "\/iron-maiden\/churchills-speech-traducao.html"
+                },
+                {
+                    "id": "3ade68b8gb31cbfa3",
+                    "desc": "Coming Home",
+                    "url": "\/iron-maiden\/coming-home.html",
+                    "turl": "\/iron-maiden\/coming-home-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gfcfafda3",
+                    "desc": "Communication Breakdown",
+                    "url": "\/iron-maiden\/communication-breakdown.html",
+                    "turl": "\/iron-maiden\/communication-breakdown-traducao.html"
+                },
+                {
+                    "id": "3ade68b6ga46beda3",
+                    "desc": "Como Estais Amigos",
+                    "url": "\/iron-maiden\/como-estais-amigos.html",
+                    "turl": "\/iron-maiden\/como-estais-amigos-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gbdfafda3",
+                    "desc": "Cross-eyed Mary",
+                    "url": "\/iron-maiden\/cross-eyed-mary.html",
+                    "turl": "\/iron-maiden\/cross-eyed-mary-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gddfafda3",
+                    "desc": "Crying In The Dark",
+                    "url": "\/iron-maiden\/crying-in-the-dark.html",
+                    "turl": "\/iron-maiden\/crying-in-the-dark-traducao.html"
+                },
+                {
+                    "id": "3ade68b6ga409fda3",
+                    "desc": "Dance Of Death",
+                    "url": "\/iron-maiden\/dance-of-death.html",
+                    "turl": "\/iron-maiden\/dance-of-death-traducao.html"
+                },
+                {
+                    "id": "3ade68b8gefb301b3",
+                    "desc": "Darkest Hour",
+                    "url": "\/iron-maiden\/darkest-hour.html"
+                },
+                {
+                    "id": "3ade68b8g51b301b3",
+                    "desc": "Days Of Future Past",
+                    "url": "\/iron-maiden\/days-of-future-past.html",
+                    "turl": "\/iron-maiden\/days-of-future-past-traducao.html"
+                },
+                {
+                    "id": "3ade68b8gffb301b3",
+                    "desc": "Death of the Celts",
+                    "url": "\/iron-maiden\/death-of-the-celts.html"
+                },
+                {
+                    "id": "3ade68b8g854c80b3",
+                    "desc": "Death or Glory",
+                    "url": "\/iron-maiden\/death-or-glory.html",
+                    "turl": "\/iron-maiden\/death-or-glory-traducao.html"
+                },
+                {
+                    "id": "3ade68b7g87f40ea3",
+                    "desc": "Deja Vu",
+                    "url": "\/iron-maiden\/deja-vu.html",
+                    "turl": "\/iron-maiden\/deja-vu-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g1efafda3",
+                    "desc": "Die With Your Boots On",
+                    "url": "\/iron-maiden\/die-with-your-boots-on.html",
+                    "turl": "\/iron-maiden\/die-with-your-boots-on-traducao.html"
+                },
+                {
+                    "id": "3ade68b7g10e3bea3",
+                    "desc": "Different World",
+                    "url": "\/iron-maiden\/different-world.html",
+                    "turl": "\/iron-maiden\/different-world-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gfdfafda3",
+                    "desc": "Doctor Doctor",
+                    "url": "\/iron-maiden\/doctor-doctor.html",
+                    "turl": "\/iron-maiden\/doctor-doctor-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g2058fda3",
+                    "desc": "Don't Look To The Eyes Of A Stranger",
+                    "url": "\/iron-maiden\/dont-look-to-the-eyes-of-a-stranger.html",
+                    "turl": "\/iron-maiden\/dont-look-to-the-eyes-of-a-stranger-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g5237fda3",
+                    "desc": "Dream Of Mirrors",
+                    "url": "\/iron-maiden\/dream-of-mirrors.html",
+                    "turl": "\/iron-maiden\/dream-of-mirrors-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g766beda3",
+                    "desc": "Drifter",
+                    "url": "\/iron-maiden\/drifter.html",
+                    "turl": "\/iron-maiden\/drifter-traducao.html"
+                },
+                {
+                    "id": "3ade68b8g6577bfa3",
+                    "desc": "El Dorado",
+                    "url": "\/iron-maiden\/el-dorado.html",
+                    "turl": "\/iron-maiden\/el-dorado-traducao.html"
+                },
+                {
+                    "id": "3ade68b8g3dcb80b3",
+                    "desc": "Empire Of The Clouds",
+                    "url": "\/iron-maiden\/empire-of-the-clouds.html",
+                    "turl": "\/iron-maiden\/empire-of-the-clouds-traducao.html"
+                },
+                {
+                    "id": "3ade68b6ge409fda3",
+                    "desc": "Face In The Sand",
+                    "url": "\/iron-maiden\/face-in-the-sand.html",
+                    "turl": "\/iron-maiden\/face-in-the-sand-traducao.html"
+                },
+                {
+                    "id": "3ade68b7gc7f40ea3",
+                    "desc": "Fates Warning",
+                    "url": "\/iron-maiden\/fates-warning.html",
+                    "turl": "\/iron-maiden\/fates-warning-traducao.html"
+                },
+                {
+                    "id": "3ade68b7gd7f40ea3",
+                    "desc": "Fear Is The Key",
+                    "url": "\/iron-maiden\/fear-is-the-key.html",
+                    "turl": "\/iron-maiden\/fear-is-the-key-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gb46beda3",
+                    "desc": "Fear Of The Dark",
+                    "url": "\/iron-maiden\/fear-of-the-dark.html",
+                    "turl": "\/iron-maiden\/fear-of-the-dark-traducao.html"
+                },
+                {
+                    "id": "3ade68b6ge36beda3",
+                    "desc": "Flash Of The Blade",
+                    "url": "\/iron-maiden\/flash-of-the-blade.html",
+                    "turl": "\/iron-maiden\/flash-of-the-blade-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g456beda3",
+                    "desc": "Flight Of Icarus",
+                    "url": "\/iron-maiden\/flight-of-icarus.html",
+                    "turl": "\/iron-maiden\/flight-of-icarus-traducao-2.html"
+                },
+                {
+                    "id": "3ade68b7g5b58bea3",
+                    "desc": "For The Greater Good Of God",
+                    "url": "\/iron-maiden\/for-the-greater-good-of-god.html",
+                    "turl": "\/iron-maiden\/for-the-greater-good-of-god-traducao.html"
+                },
+                {
+                    "id": "3ade68b7ge7f40ea3",
+                    "desc": "Fortunes Of War",
+                    "url": "\/iron-maiden\/fortunes-of-war.html",
+                    "turl": "\/iron-maiden\/fortunes-of-war-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g7dfafda3",
+                    "desc": "From Here To Eternity",
+                    "url": "\/iron-maiden\/from-here-to-eternity.html",
+                    "turl": "\/iron-maiden\/from-here-to-eternity-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g9dfafda3",
+                    "desc": "Futureal",
+                    "url": "\/iron-maiden\/futureal.html",
+                    "turl": "\/iron-maiden\/futureal-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g936beda3",
+                    "desc": "Gangland",
+                    "url": "\/iron-maiden\/gangland.html",
+                    "turl": "\/iron-maiden\/gangland-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gb409fda3",
+                    "desc": "Gates Of Tomorrow",
+                    "url": "\/iron-maiden\/gates-of-tomorrow.html",
+                    "turl": "\/iron-maiden\/gates-of-tomorrow-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g446beda3",
+                    "desc": "Ghost Of The Navigator",
+                    "url": "\/iron-maiden\/ghost-of-the-navigator.html",
+                    "turl": "\/iron-maiden\/ghost-of-the-navigator-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gb36beda3",
+                    "desc": "Hallowed Be Thy Name",
+                    "url": "\/iron-maiden\/hallowed-be-thy-name.html",
+                    "turl": "\/iron-maiden\/hallowed-be-thy-name-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g166beda3",
+                    "desc": "Heaven Can Wait",
+                    "url": "\/iron-maiden\/heaven-can-wait.html",
+                    "turl": "\/iron-maiden\/heaven-can-wait-traducao.html"
+                },
+                {
+                    "id": "3ade68b8g10c301b3",
+                    "desc": "Hell On Earth",
+                    "url": "\/iron-maiden\/hell-on-earth.html",
+                    "turl": "\/iron-maiden\/hell-on-earth-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gc66beda3",
+                    "desc": "Holy Smoke",
+                    "url": "\/iron-maiden\/holy-smoke.html",
+                    "turl": "\/iron-maiden\/holy-smoke-traducao.html"
+                },
+                {
+                    "id": "3ade68b7gb5ce3ea3",
+                    "desc": "Home",
+                    "url": "\/iron-maiden\/home.html",
+                    "turl": "\/iron-maiden\/home-traducao.html"
+                },
+                {
+                    "id": "3ade68b7g18f40ea3",
+                    "desc": "Hooks In You",
+                    "url": "\/iron-maiden\/hooks-in-you.html",
+                    "turl": "\/iron-maiden\/hooks-in-you-traducao.html"
+                },
+                {
+                    "id": "3ade68b7gfede5ea3",
+                    "desc": "Hooks In You (traduzida)",
+                    "url": "\/iron-maiden\/hooks-in-you-traduzida.html"
+                },
+                {
+                    "id": "3ade68b6g5efafda3",
+                    "desc": "I Can't See My Feelings",
+                    "url": "\/iron-maiden\/i-cant-see-my-feelings.html",
+                    "turl": "\/iron-maiden\/i-cant-see-my-feelings-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g7efafda3",
+                    "desc": "I Live My Way",
+                    "url": "\/iron-maiden\/i-live-my-way.html",
+                    "turl": "\/iron-maiden\/i-live-my-way-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g2ffafda3",
+                    "desc": "I'm A Mover",
+                    "url": "\/iron-maiden\/im-a-mover.html"
+                },
+                {
+                    "id": "3ade68b7g99916ea3",
+                    "desc": "I've Got The Fire",
+                    "url": "\/iron-maiden\/ive-got-the-fire.html",
+                    "turl": "\/iron-maiden\/ive-got-the-fire-traducao.html"
+                },
+                {
+                    "id": "3ade68b8g4dcb80b3",
+                    "desc": "If Eternity Should Fail",
+                    "url": "\/iron-maiden\/if-eternity-should-fail.html",
+                    "turl": "\/iron-maiden\/if-eternity-should-fail-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g8f18fda3",
+                    "desc": "Infinite Dreams",
+                    "url": "\/iron-maiden\/infinite-dreams.html",
+                    "turl": "\/iron-maiden\/infinite-dreams-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g4717fda3",
+                    "desc": "Innocent Exile",
+                    "url": "\/iron-maiden\/innocent-exile.html",
+                    "turl": "\/iron-maiden\/innocent-exile-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g336beda3",
+                    "desc": "Invaders",
+                    "url": "\/iron-maiden\/invaders.html",
+                    "turl": "\/iron-maiden\/invaders-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gdefafda3",
+                    "desc": "Invasion",
+                    "url": "\/iron-maiden\/invasion.html",
+                    "turl": "\/iron-maiden\/invasion-traducao.html"
+                },
+                {
+                    "id": "3ade68b7g9b055ea3",
+                    "desc": "Iron Maiden",
+                    "url": "\/iron-maiden\/iron-maiden.html",
+                    "turl": "\/iron-maiden\/iron-maiden-traducao.html"
+                },
+                {
+                    "id": "3ade68b8g7c4cbfa3",
+                    "desc": "Isle Of Avalon",
+                    "url": "\/iron-maiden\/isle-of-avalon.html",
+                    "turl": "\/iron-maiden\/isle-of-avalon-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g0509fda3",
+                    "desc": "Journeyman",
+                    "url": "\/iron-maiden\/journeyman.html",
+                    "turl": "\/iron-maiden\/journeyman-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g5ffafda3",
+                    "desc": "Juanita",
+                    "url": "\/iron-maiden\/juanita.html",
+                    "turl": "\/iron-maiden\/juanita-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g7ffafda3",
+                    "desc": "Judas Be My Guide",
+                    "url": "\/iron-maiden\/judas-be-my-guide.html",
+                    "turl": "\/iron-maiden\/judas-be-my-guide-traducao.html"
+                },
+                {
+                    "id": "3ade68b7g28f40ea3",
+                    "desc": "Judgement Of Heaven",
+                    "url": "\/iron-maiden\/judgement-of-heaven.html",
+                    "turl": "\/iron-maiden\/judgement-of-heaven-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g9ffafda3",
+                    "desc": "Judgment Day",
+                    "url": "\/iron-maiden\/judgment-day.html",
+                    "turl": "\/iron-maiden\/judgment-day-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gcffafda3",
+                    "desc": "Justice Of The Peace",
+                    "url": "\/iron-maiden\/justice-of-the-peace.html",
+                    "turl": "\/iron-maiden\/justice-of-the-peace-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gfffafda3",
+                    "desc": "Kill Me Ce Soir",
+                    "url": "\/iron-maiden\/kill-me-ce-soir.html",
+                    "turl": "\/iron-maiden\/kill-me-ce-soir-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g666beda3",
+                    "desc": "Killers",
+                    "url": "\/iron-maiden\/killers.html",
+                    "turl": "\/iron-maiden\/killers-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g200bfda3",
+                    "desc": "King Of Twilight",
+                    "url": "\/iron-maiden\/king-of-twilight.html",
+                    "turl": "\/iron-maiden\/king-of-twilight-traducao.html"
+                },
+                {
+                    "id": "3ade68b7g38f40ea3",
+                    "desc": "Lightning Strikes Twice",
+                    "url": "\/iron-maiden\/lightning-strikes-twice.html",
+                    "turl": "\/iron-maiden\/lightning-strikes-twice-traducao.html"
+                },
+                {
+                    "id": "3ade68b7g48f40ea3",
+                    "desc": "Look For The Truth",
+                    "url": "\/iron-maiden\/look-for-the-truth.html",
+                    "turl": "\/iron-maiden\/look-for-the-truth-traducao.html"
+                },
+                {
+                    "id": "3ade68b7gfdb8bea3",
+                    "desc": "Lord Of Light",
+                    "url": "\/iron-maiden\/lord-of-light.html",
+                    "turl": "\/iron-maiden\/lord-of-light-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gd56beda3",
+                    "desc": "Lord Of The Flies",
+                    "url": "\/iron-maiden\/lord-of-the-flies.html",
+                    "turl": "\/iron-maiden\/lord-of-the-flies-traducao.html"
+                },
+                {
+                    "id": "3ade68b8g71590fa3",
+                    "desc": "Losfer Words",
+                    "url": "\/iron-maiden\/losfer-words.html"
+                },
+                {
+                    "id": "3ade68b8g81b301b3",
+                    "desc": "Lost In a Lost World",
+                    "url": "\/iron-maiden\/lost-in-a-lost-world.html",
+                    "turl": "\/iron-maiden\/lost-in-a-lost-world-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gf66beda3",
+                    "desc": "Man On The Edge",
+                    "url": "\/iron-maiden\/man-on-the-edge.html",
+                    "turl": "\/iron-maiden\/man-on-the-edge-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g700bfda3",
+                    "desc": "Massacre",
+                    "url": "\/iron-maiden\/massacre.html",
+                    "turl": "\/iron-maiden\/massacre-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g9409fda3",
+                    "desc": "Monts\u00e9gur",
+                    "url": "\/iron-maiden\/montsegur.html",
+                    "turl": "\/iron-maiden\/montsegur-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g900bfda3",
+                    "desc": "Moonchild",
+                    "url": "\/iron-maiden\/moonchild.html",
+                    "turl": "\/iron-maiden\/moonchild-traducao.html"
+                },
+                {
+                    "id": "3ade68b8g5e44eea3",
+                    "desc": "More Tea Vicar?",
+                    "url": "\/iron-maiden\/more-tea-vicar.html"
+                },
+                {
+                    "id": "3ade68b8g6c4cbfa3",
+                    "desc": "Mother Of Mercy",
+                    "url": "\/iron-maiden\/mother-of-mercy.html",
+                    "turl": "\/iron-maiden\/mother-of-mercy-traducao.html"
+                },
+                {
+                    "id": "3ade68b7g68f40ea3",
+                    "desc": "Mother Russia",
+                    "url": "\/iron-maiden\/mother-russia.html",
+                    "turl": "\/iron-maiden\/mother-russia-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gb368fda3",
+                    "desc": "Murders in the Rue Morgue",
+                    "url": "\/iron-maiden\/murders-in-the-rue-morgue.html",
+                    "turl": "\/iron-maiden\/murders-in-the-rue-morgue-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gb00bfda3",
+                    "desc": "My Generation",
+                    "url": "\/iron-maiden\/my-generation.html",
+                    "turl": "\/iron-maiden\/my-generation-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gc409fda3",
+                    "desc": "New Frontier",
+                    "url": "\/iron-maiden\/new-frontier.html",
+                    "turl": "\/iron-maiden\/new-frontier-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g8409fda3",
+                    "desc": "No More Lies",
+                    "url": "\/iron-maiden\/no-more-lies.html",
+                    "turl": "\/iron-maiden\/no-more-lies-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g066beda3",
+                    "desc": "No Prayer For The Dying",
+                    "url": "\/iron-maiden\/no-prayer-for-the-dying.html",
+                    "turl": "\/iron-maiden\/no-prayer-for-the-dying-traducao.html"
+                },
+                {
+                    "id": "3ade68b8g7e72afa3",
+                    "desc": "Nodding Donkey Blues",
+                    "url": "\/iron-maiden\/nodding-donkey-blues.html",
+                    "turl": "\/iron-maiden\/nodding-donkey-blues-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gd00bfda3",
+                    "desc": "Only The Good Die Young",
+                    "url": "\/iron-maiden\/only-the-good-die-young.html",
+                    "turl": "\/iron-maiden\/only-the-good-die-young-traducao.html"
+                },
+                {
+                    "id": "3ade68b7gc968bea3",
+                    "desc": "Out Of The Shadows",
+                    "url": "\/iron-maiden\/out-of-the-shadows.html",
+                    "turl": "\/iron-maiden\/out-of-the-shadows-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g566beda3",
+                    "desc": "Out Of The Silent Planet",
+                    "url": "\/iron-maiden\/out-of-the-silent-planet.html",
+                    "turl": "\/iron-maiden\/out-of-the-silent-planet-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gd409fda3",
+                    "desc": "Paschendale",
+                    "url": "\/iron-maiden\/paschendale.html",
+                    "turl": "\/iron-maiden\/paschendale-traducao.html"
+                },
+                {
+                    "id": "3ade68b8g717740b3",
+                    "desc": "Pass the Jam",
+                    "url": "\/iron-maiden\/pass-the-jam.html",
+                    "turl": "\/iron-maiden\/pass-the-jam-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g656beda3",
+                    "desc": "Phantom Of The Opera",
+                    "url": "\/iron-maiden\/phantom-of-the-opera.html",
+                    "turl": "\/iron-maiden\/phantom-of-the-opera-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g146beda3",
+                    "desc": "Powerslave",
+                    "url": "\/iron-maiden\/powerslave.html",
+                    "turl": "\/iron-maiden\/powerslave-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gc368fda3",
+                    "desc": "Prodigal Son",
+                    "url": "\/iron-maiden\/prodigal-son.html",
+                    "turl": "\/iron-maiden\/prodigal-son-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g556beda3",
+                    "desc": "Prowler",
+                    "url": "\/iron-maiden\/prowler.html",
+                    "turl": "\/iron-maiden\/prowler-traducao.html"
+                },
+                {
+                    "id": "3ade68b7g78f40ea3",
+                    "desc": "Public Enema Number One",
+                    "url": "\/iron-maiden\/public-enema-number-one.html",
+                    "turl": "\/iron-maiden\/public-enema-number-one-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g866beda3",
+                    "desc": "Purgatory",
+                    "url": "\/iron-maiden\/purgatory.html",
+                    "turl": "\/iron-maiden\/purgatory-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g643bfda3",
+                    "desc": "Quest For Fire",
+                    "url": "\/iron-maiden\/quest-for-fire.html",
+                    "turl": "\/iron-maiden\/quest-for-fire-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g410bfda3",
+                    "desc": "Rainbow's Gold",
+                    "url": "\/iron-maiden\/rainbows-gold.html",
+                    "turl": "\/iron-maiden\/rainbows-gold-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g7409fda3",
+                    "desc": "Rainmaker",
+                    "url": "\/iron-maiden\/rainmaker.html",
+                    "turl": "\/iron-maiden\/rainmaker-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g710bfda3",
+                    "desc": "Reach Out",
+                    "url": "\/iron-maiden\/reach-out.html",
+                    "turl": "\/iron-maiden\/reach-out-traducao.html"
+                },
+                {
+                    "id": "3ade68b6ge46beda3",
+                    "desc": "Remember Tomorrow",
+                    "url": "\/iron-maiden\/remember-tomorrow.html"
+                },
+                {
+                    "id": "3ade68b6g966beda3",
+                    "desc": "Revelations",
+                    "url": "\/iron-maiden\/revelations.html",
+                    "turl": "\/iron-maiden\/reveletions-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g246beda3",
+                    "desc": "Rime Of The Ancient Mariner",
+                    "url": "\/iron-maiden\/rime-of-the-ancient-mariner.html",
+                    "turl": "\/iron-maiden\/rime-of-the-ancient-mariner-traducao.html"
+                },
+                {
+                    "id": "3ade68b8g8e72afa3",
+                    "desc": "Roll Over Vic Vella",
+                    "url": "\/iron-maiden\/roll-over-vic-vella.html"
+                },
+                {
+                    "id": "3ade68b6gc56beda3",
+                    "desc": "Run Silent, Run Deep",
+                    "url": "\/iron-maiden\/run-silent-run-deep.html",
+                    "turl": "\/iron-maiden\/run-silent-run-deep-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g836beda3",
+                    "desc": "Run To The Hills",
+                    "url": "\/iron-maiden\/run-to-the-hills.html",
+                    "turl": "\/iron-maiden\/run-to-the-hills-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gf46beda3",
+                    "desc": "Running Free",
+                    "url": "\/iron-maiden\/running-free.html",
+                    "turl": "\/iron-maiden\/running-free-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g376beda3",
+                    "desc": "Sanctuary",
+                    "url": "\/iron-maiden\/sanctuary.html",
+                    "turl": "\/iron-maiden\/sanctuary-traducao.html"
+                },
+                {
+                    "id": "3ade68b8g30aabfa3",
+                    "desc": "Satellite 15... the Final Frontier",
+                    "url": "\/iron-maiden\/satellite-15-the-final-frontier.html",
+                    "turl": "\/iron-maiden\/satellite-15-the-final-frontier-traducao.html"
+                },
+                {
+                    "id": "3ade68b7gc8f40ea3",
+                    "desc": "Sea of Madness",
+                    "url": "\/iron-maiden\/sea-of-madness.html",
+                    "turl": "\/iron-maiden\/sea-of-madness-traducao.html"
+                },
+                {
+                    "id": "3ade68b8ga1b301b3",
+                    "desc": "Senjutsu",
+                    "url": "\/iron-maiden\/senjutsu.html",
+                    "turl": "\/iron-maiden\/senjutsu-traducao.html"
+                },
+                {
+                    "id": "3ade68b6ge56beda3",
+                    "desc": "Seventh Son Of A Seventh Son",
+                    "url": "\/iron-maiden\/seventh-son-of-a-seventh-son.html",
+                    "turl": "\/iron-maiden\/seventh-son-of-a-seventh-son-traducao.html"
+                },
+                {
+                    "id": "3ade68b8gf54c80b3",
+                    "desc": "Shadows Of The Valley",
+                    "url": "\/iron-maiden\/shadows-of-the-valley.html",
+                    "turl": "\/iron-maiden\/shadows-of-the-valley-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g020bfda3",
+                    "desc": "Sheriff Of Huddersfield",
+                    "url": "\/iron-maiden\/sheriff-of-huddersfield.html",
+                    "turl": "\/iron-maiden\/sheriff-of-huddersfield-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g266beda3",
+                    "desc": "Sign Of The Cross",
+                    "url": "\/iron-maiden\/sign-of-the-cross.html",
+                    "turl": "\/iron-maiden\/sign-of-the-cross-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g220bfda3",
+                    "desc": "Space Station #5",
+                    "url": "\/iron-maiden\/space-station-5.html",
+                    "turl": "\/iron-maiden\/space-station-5-traducao.html"
+                },
+                {
+                    "id": "3ade68b8g49cb00b3",
+                    "desc": "Space Truckin'",
+                    "url": "\/iron-maiden\/space-truckin.html",
+                    "turl": "\/iron-maiden\/space-truckin-traducao.html"
+                },
+                {
+                    "id": "3ade68b8g1d0a80b3",
+                    "desc": "Speed Of Light",
+                    "url": "\/iron-maiden\/speed-of-light.html",
+                    "turl": "\/iron-maiden\/speed-of-light-traducao.html"
+                },
+                {
+                    "id": "3ade68b8g8c4cbfa3",
+                    "desc": "Starblind",
+                    "url": "\/iron-maiden\/starblind.html",
+                    "turl": "\/iron-maiden\/starblind-traducao.html"
+                },
+                {
+                    "id": "3ade68b7gd8f40ea3",
+                    "desc": "Still Life",
+                    "url": "\/iron-maiden\/still-life.html",
+                    "turl": "\/iron-maiden\/still-life-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g756beda3",
+                    "desc": "Strange World",
+                    "url": "\/iron-maiden\/strange-world.html",
+                    "turl": "\/iron-maiden\/strange-world-traducao.html"
+                },
+                {
+                    "id": "3ade68b7ge8f40ea3",
+                    "desc": "Stranger in a Strange Land",
+                    "url": "\/iron-maiden\/stranger-in-a-strange-land.html",
+                    "turl": "\/iron-maiden\/stranger-in-a-strange-land-traducao.html"
+                },
+                {
+                    "id": "3ade68b8g214301b3",
+                    "desc": "Stratego",
+                    "url": "\/iron-maiden\/stratego.html"
+                },
+                {
+                    "id": "3ade68b6gd66beda3",
+                    "desc": "Sun And Steel",
+                    "url": "\/iron-maiden\/sun-and-steel.html",
+                    "turl": "\/iron-maiden\/sun-and-steel-traducao.html"
+                },
+                {
+                    "id": "3ade68b7gf8f40ea3",
+                    "desc": "Tailgunner",
+                    "url": "\/iron-maiden\/tailgunner.html",
+                    "turl": "\/iron-maiden\/tailgunner-traducao.html"
+                },
+                {
+                    "id": "3ade68b8g164c80b3",
+                    "desc": "Tears Of a Clown",
+                    "url": "\/iron-maiden\/tears-of-a-clown.html",
+                    "turl": "\/iron-maiden\/tears-of-a-clown-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g420bfda3",
+                    "desc": "That Girl",
+                    "url": "\/iron-maiden\/that-girl.html",
+                    "turl": "\/iron-maiden\/that-girl-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gb56beda3",
+                    "desc": "The Aftermath",
+                    "url": "\/iron-maiden\/the-aftermath.html",
+                    "turl": "\/iron-maiden\/the-aftermath-traducao.html"
+                },
+                {
+                    "id": "3ade68b8gf21cbfa3",
+                    "desc": "The Alchemist",
+                    "url": "\/iron-maiden\/the-alchemist.html",
+                    "turl": "\/iron-maiden\/the-alchemist-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g720bfda3",
+                    "desc": "The Angel And The Gambler",
+                    "url": "\/iron-maiden\/the-angel-and-the-gambler.html",
+                    "turl": "\/iron-maiden\/the-angel-and-the-gambler-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g920bfda3",
+                    "desc": "The Apparition",
+                    "url": "\/iron-maiden\/the-apparition.html",
+                    "turl": "\/iron-maiden\/the-apparition-traducao.html"
+                },
+                {
+                    "id": "3ade68b7g09f40ea3",
+                    "desc": "The Assassin",
+                    "url": "\/iron-maiden\/the-assassin.html",
+                    "turl": "\/iron-maiden\/the-assassin-traduzida.html"
+                },
+                {
+                    "id": "3ade68b8ge54c80b3",
+                    "desc": "The Book Of Souls",
+                    "url": "\/iron-maiden\/the-book-of-souls.html",
+                    "turl": "\/iron-maiden\/the-book-of-souls-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g056beda3",
+                    "desc": "The Clairvoyant",
+                    "url": "\/iron-maiden\/the-clairvoyant.html",
+                    "turl": "\/iron-maiden\/the-clairvoyant-traducao.html"
+                },
+                {
+                    "id": "3ade68b6ge3fafda3",
+                    "desc": "The Clansman",
+                    "url": "\/iron-maiden\/the-clansman.html",
+                    "turl": "\/iron-maiden\/the-clansman-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gf36beda3",
+                    "desc": "The Duellists",
+                    "url": "\/iron-maiden\/the-duellists.html",
+                    "turl": "\/iron-maiden\/the-duellists-traducao.html"
+                },
+                {
+                    "id": "3ade68b7g19f40ea3",
+                    "desc": "The Edge Of Darkness",
+                    "url": "\/iron-maiden\/the-edge-of-darkness.html",
+                    "turl": "\/iron-maiden\/the-edge-of-darkness-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gf20bfda3",
+                    "desc": "The Educated Fool",
+                    "url": "\/iron-maiden\/the-educated-fool.html",
+                    "turl": "\/iron-maiden\/the-educated-fool-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g156beda3",
+                    "desc": "The Evil That Men Do",
+                    "url": "\/iron-maiden\/the-evil-that-men-do.html"
+                },
+                {
+                    "id": "3ade68b6g746beda3",
+                    "desc": "The Fallen Angel",
+                    "url": "\/iron-maiden\/the-fallen-angel.html",
+                    "turl": "\/iron-maiden\/the-fallen-angel-traducao.html"
+                },
+                {
+                    "id": "3ade68b7g39f40ea3",
+                    "desc": "The Fugitive",
+                    "url": "\/iron-maiden\/the-fugitive.html",
+                    "turl": "\/iron-maiden\/the-fugitive-traducao.html"
+                },
+                {
+                    "id": "3ade68b8gc54c80b3",
+                    "desc": "The Great Unknown",
+                    "url": "\/iron-maiden\/the-great-unknown.html"
+                },
+                {
+                    "id": "3ade68b7g3b58bea3",
+                    "desc": "The Legacy",
+                    "url": "\/iron-maiden\/the-legacy.html",
+                    "turl": "\/iron-maiden\/the-legacy-traducao.html"
+                },
+                {
+                    "id": "3ade68b7g98b71ea3",
+                    "desc": "The Loneliness of the Long Distance Runner",
+                    "url": "\/iron-maiden\/the-loneliness-of-the-long-distance-runner.html",
+                    "turl": "\/iron-maiden\/the-loneliness-of-the-long-distance-runner-traducao.html"
+                },
+                {
+                    "id": "3ade68b7g9b58bea3",
+                    "desc": "The Longest Day",
+                    "url": "\/iron-maiden\/the-longest-day.html",
+                    "turl": "\/iron-maiden\/the-longest-day-traducao.html"
+                },
+                {
+                    "id": "3ade68b8g264c80b3",
+                    "desc": "The Man Of Sorrows",
+                    "url": "\/iron-maiden\/the-man-of-sorrows.html",
+                    "turl": "\/iron-maiden\/the-man-of-sorrows-traducao.html"
+                },
+                {
+                    "id": "3ade68b8g9c4cbfa3",
+                    "desc": "The Man Who Would Be King",
+                    "url": "\/iron-maiden\/the-man-who-would-be-king.html",
+                    "turl": "\/iron-maiden\/the-man-who-would-be-king-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g956beda3",
+                    "desc": "The Mercenary",
+                    "url": "\/iron-maiden\/the-mercenary.html",
+                    "turl": "\/iron-maiden\/the-mercenary-traducao.html"
+                },
+                {
+                    "id": "3ade68b6ga56beda3",
+                    "desc": "The Nomad",
+                    "url": "\/iron-maiden\/the-nomad.html",
+                    "turl": "\/iron-maiden\/the-nomad-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g736beda3",
+                    "desc": "The Number Of The Beast",
+                    "url": "\/iron-maiden\/the-number-of-the-beast.html",
+                    "turl": "\/iron-maiden\/the-number-of-the-beast-traducao.html"
+                },
+                {
+                    "id": "3ade68b8g00c301b3",
+                    "desc": "The Parchment",
+                    "url": "\/iron-maiden\/the-parchment.html"
+                },
+                {
+                    "id": "3ade68b7gab58bea3",
+                    "desc": "The Pilgrim",
+                    "url": "\/iron-maiden\/the-pilgrim.html",
+                    "turl": "\/iron-maiden\/the-pilgrim-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g536beda3",
+                    "desc": "The Prisoner",
+                    "url": "\/iron-maiden\/the-prisoner.html",
+                    "turl": "\/iron-maiden\/the-prisonertraducao.html"
+                },
+                {
+                    "id": "3ade68b7g79b71ea3",
+                    "desc": "The Prophecy",
+                    "url": "\/iron-maiden\/the-prophecy.html",
+                    "turl": "\/iron-maiden\/the-prophecy-traducao.html"
+                },
+                {
+                    "id": "3ade68b8g248c80b3",
+                    "desc": "The Red and The Black",
+                    "url": "\/iron-maiden\/the-red-and-the-black.html",
+                    "turl": "\/iron-maiden\/the-red-and-the-black-traducao.html"
+                },
+                {
+                    "id": "3ade68b7g4ce1aea3",
+                    "desc": "The Reincarnation Of Benjamin Breeg",
+                    "url": "\/iron-maiden\/the-reincarnation-of-benjamin-breeg.html",
+                    "turl": "\/iron-maiden\/the-reincarnation-of-benjamin-breeg-traducao.html"
+                },
+                {
+                    "id": "3ade68b8g5d4cbfa3",
+                    "desc": "The Talisman",
+                    "url": "\/iron-maiden\/the-talisman.html",
+                    "turl": "\/iron-maiden\/the-talisman-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gc46beda3",
+                    "desc": "The Thin Line Between Love & Hate",
+                    "url": "\/iron-maiden\/the-thin-line-between-love-hate.html",
+                    "turl": "\/iron-maiden\/the-thin-line-between-love-hate-traducao.html"
+                },
+                {
+                    "id": "3ade68b8g31b301b3",
+                    "desc": "The Time Machine",
+                    "url": "\/iron-maiden\/the-time-machine.html",
+                    "turl": "\/iron-maiden\/the-time-machine-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g356beda3",
+                    "desc": "The Trooper",
+                    "url": "\/iron-maiden\/the-trooper.html",
+                    "turl": "\/iron-maiden\/the-trooper-traducao.html"
+                },
+                {
+                    "id": "3ade68b6ga66beda3",
+                    "desc": "The Unbeliever",
+                    "url": "\/iron-maiden\/the-unbeliever.html",
+                    "turl": "\/iron-maiden\/the-unbeliever-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g346beda3",
+                    "desc": "The Wicker Man",
+                    "url": "\/iron-maiden\/the-wicker-man.html",
+                    "turl": "\/iron-maiden\/the-wicker-man-traducao.html"
+                },
+                {
+                    "id": "3ade68b8g736001b3",
+                    "desc": "The Writing On The Wall",
+                    "url": "\/iron-maiden\/the-writing-on-the-wall.html"
+                },
+                {
+                    "id": "3ade68b7gcb58bea3",
+                    "desc": "These Colours Don't Run",
+                    "url": "\/iron-maiden\/these-colours-dont-run.html",
+                    "turl": "\/iron-maiden\/these-colours-dont-run-traducao.html"
+                },
+                {
+                    "id": "3ade68b6ge66beda3",
+                    "desc": "To Tame A Land",
+                    "url": "\/iron-maiden\/to-tame-a-land.html",
+                    "turl": "\/iron-maiden\/to-tame-a-land-traducao.html"
+                },
+                {
+                    "id": "3ade68b6ga36beda3",
+                    "desc": "Total Eclipse",
+                    "url": "\/iron-maiden\/total-eclipse.html",
+                    "turl": "\/iron-maiden\/total-eclipse-traducao.html"
+                },
+                {
+                    "id": "3ade68b8g24810fa3",
+                    "desc": "Transylvania",
+                    "url": "\/iron-maiden\/transylvania.html"
+                },
+                {
+                    "id": "3ade68b7g89f40ea3",
+                    "desc": "Twilight Zone",
+                    "url": "\/iron-maiden\/twilight-zone.html",
+                    "turl": "\/iron-maiden\/twilight-zone-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g366beda3",
+                    "desc": "Virus",
+                    "url": "\/iron-maiden\/virus.html",
+                    "turl": "\/iron-maiden\/virus-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g256beda3",
+                    "desc": "Wasted Years",
+                    "url": "\/iron-maiden\/wasted-years.html",
+                    "turl": "\/iron-maiden\/wasted-years-traduzido-certo-e-sem-erros-desculpa-por-mandar-3-vezes-isso-nao-acontecera-de-novo.html"
+                },
+                {
+                    "id": "3ade68b6g476beda3",
+                    "desc": "Wasting Love",
+                    "url": "\/iron-maiden\/wasting-love.html",
+                    "turl": "\/iron-maiden\/wasting-love-traducao.html"
+                },
+                {
+                    "id": "3ade68b7gb9f40ea3",
+                    "desc": "We Kill Everything",
+                    "url": "\/iron-maiden\/we-kill-everything.html",
+                    "turl": "\/iron-maiden\/we-kill-everything-traducao.html"
+                },
+                {
+                    "id": "3ade68b7gc9f40ea3",
+                    "desc": "Weekend Warrior",
+                    "url": "\/iron-maiden\/weekend-warrior.html",
+                    "turl": "\/iron-maiden\/weekend-warrior-traducao.html"
+                },
+                {
+                    "id": "3ade68b8gb54c80b3",
+                    "desc": "When The River Runs Deep",
+                    "url": "\/iron-maiden\/when-the-river-runs-deep.html",
+                    "turl": "\/iron-maiden\/when-the-river-runs-deep-traducao.html"
+                },
+                {
+                    "id": "3ade68b8gac4cbfa3",
+                    "desc": "When The Wild Wind Blows",
+                    "url": "\/iron-maiden\/when-the-wild-wind-blows.html",
+                    "turl": "\/iron-maiden\/when-the-wild-wind-blows-traducao.html"
+                },
+                {
+                    "id": "3ade68b7gd9f40ea3",
+                    "desc": "When Two Worlds Collide",
+                    "url": "\/iron-maiden\/when-two-worlds-collide.html",
+                    "turl": "\/iron-maiden\/when-two-worlds-collide-traducao.html"
+                },
+                {
+                    "id": "3ade68b6gf56beda3",
+                    "desc": "Where Eagles Dare",
+                    "url": "\/iron-maiden\/where-eagles-dare.html",
+                    "turl": "\/iron-maiden\/where-eagles-daretraducao.html"
+                },
+                {
+                    "id": "3ade68b6g6409fda3",
+                    "desc": "Wildest Dreams",
+                    "url": "\/iron-maiden\/wildest-dreams.html",
+                    "turl": "\/iron-maiden\/wildest-dreams-traducao.html"
+                },
+                {
+                    "id": "3ade68b7ge9f40ea3",
+                    "desc": "Women In Uniform",
+                    "url": "\/iron-maiden\/women-in-uniform.html",
+                    "turl": "\/iron-maiden\/women-in-uniform-traducao.html"
+                },
+                {
+                    "id": "3ade68b6g276beda3",
+                    "desc": "Wrathchild",
+                    "url": "\/iron-maiden\/wrathchild.html",
+                    "turl": "\/iron-maiden\/wrathchild-traducao.html"
+                }
+            ]
+        },
+        "albums": {
+            "item": [
+                {
+                    "id": "3ade68b7g016ffda3",
+                    "desc": "Senjutsu",
+                    "url": "\/iron-maiden\/discografia\/senjutsu.html",
+                    "year": "2021"
+                },
+                {
+                    "id": "3ade68b6g38eafda3",
+                    "desc": "The Book Of Souls",
+                    "url": "\/iron-maiden\/discografia\/the-book-of-souls.html",
+                    "year": "2015"
+                },
+                {
+                    "id": "3ade68b6gb3c8fda3",
+                    "desc": "En Vivo",
+                    "url": "\/iron-maiden\/discografia\/en-vivo-11.html",
+                    "year": "2012"
+                },
+                {
+                    "id": "3ade68b6g487afda3",
+                    "desc": "From Fear to Eternity: The Best of 1990-2010",
+                    "url": "\/iron-maiden\/discografia\/from-fear-to-eternity-the-best-of-1990-2010.html",
+                    "year": "2011"
+                },
+                {
+                    "id": "3ade68b6g7d58fda3",
+                    "desc": "The Final Frontier",
+                    "url": "\/iron-maiden\/discografia\/the-final-frontier.html",
+                    "year": "2010"
+                },
+                {
+                    "id": "3ade68b6gd448fda3",
+                    "desc": "Flight 666",
+                    "url": "\/iron-maiden\/discografia\/flight-666.html",
+                    "year": "2009"
+                },
+                {
+                    "id": "3ade68b6g5a38fda3",
+                    "desc": "Somewhere Back in Time: The Best of 1980-1989",
+                    "url": "\/iron-maiden\/discografia\/somewhere-back-in-time-the-best-of-1980-1989.html",
+                    "year": "2008"
+                },
+                {
+                    "id": "3ade68b6g9709fda3",
+                    "desc": "A Matter of Life and Death",
+                    "url": "\/iron-maiden\/discografia\/a-matter-of-life-and-death.html",
+                    "year": "2006"
+                },
+                {
+                    "id": "3ade68b6ge677fda3",
+                    "desc": "Death on the Road",
+                    "url": "\/iron-maiden\/discografia\/death-on-the-road.html",
+                    "year": "2006"
+                },
+                {
+                    "id": "3ade68b6g0f03fda3",
+                    "desc": "Essential Iron Maiden (Remastered)",
+                    "url": "\/iron-maiden\/discografia\/essential-iron-maiden-remastered.html",
+                    "year": "2005"
+                },
+                {
+                    "id": "3ade68b6g05bafda3",
+                    "desc": "Dance Of Death",
+                    "url": "\/iron-maiden\/discografia\/dance-of-death.html",
+                    "year": "2003"
+                },
+                {
+                    "id": "3ade68b6gc677fda3",
+                    "desc": "Edward the Great: Greatest Hits",
+                    "url": "\/iron-maiden\/discografia\/edward-the-great-greatest-hits.html",
+                    "year": "2002"
+                },
+                {
+                    "id": "3ade68b6g2777fda3",
+                    "desc": "Rock in Rio Live",
+                    "url": "\/iron-maiden\/discografia\/rock-in-rio-live.html",
+                    "year": "2002"
+                },
+                {
+                    "id": "3ade68b6g78f5fda3",
+                    "desc": "Out of the Silent Planet",
+                    "url": "\/iron-maiden\/discografia\/out-of-the-silent-planet.html",
+                    "year": "2000"
+                },
+                {
+                    "id": "3ade68b6gd7f5fda3",
+                    "desc": "Brave New World",
+                    "url": "\/iron-maiden\/discografia\/brave-new-world.html",
+                    "year": "2000"
+                },
+                {
+                    "id": "3ade68b6ge7f5fda3",
+                    "desc": "Ed Hunter",
+                    "url": "\/iron-maiden\/discografia\/ed-hunter.html",
+                    "year": "1999"
+                },
+                {
+                    "id": "3ade68b6gf7f5fda3",
+                    "desc": "A Real Live Dead One",
+                    "url": "\/iron-maiden\/discografia\/a-real-live-dead-one.html",
+                    "year": "1998"
+                },
+                {
+                    "id": "3ade68b6ga8f5fda3",
+                    "desc": "Live at Donington",
+                    "url": "\/iron-maiden\/discografia\/live-at-donington.html",
+                    "year": "1998"
+                },
+                {
+                    "id": "3ade68b6gc7f5fda3",
+                    "desc": "Virtual XI",
+                    "url": "\/iron-maiden\/discografia\/virtual-xi.html",
+                    "year": "1998"
+                },
+                {
+                    "id": "3ade68b6ga7f5fda3",
+                    "desc": "Best of the Beast",
+                    "url": "\/iron-maiden\/discografia\/best-of-the-beast.html",
+                    "year": "1996"
+                },
+                {
+                    "id": "3ade68b6g45aeeda3",
+                    "desc": "Real Dead One",
+                    "url": "\/iron-maiden\/discografia\/real-dead-one.html",
+                    "year": "1995"
+                },
+                {
+                    "id": "3ade68b6g35aeeda3",
+                    "desc": "Real Live One",
+                    "url": "\/iron-maiden\/discografia\/real-live-one.html",
+                    "year": "1995"
+                },
+                {
+                    "id": "3ade68b6g08f5fda3",
+                    "desc": "The X Factor",
+                    "url": "\/iron-maiden\/discografia\/the-x-factor.html",
+                    "year": "1995"
+                },
+                {
+                    "id": "3ade68b6gd777fda3",
+                    "desc": "Live at Donington: August 22nd 1992",
+                    "url": "\/iron-maiden\/discografia\/live-at-donington-august-22nd-1992.html",
+                    "year": "1993"
+                },
+                {
+                    "id": "3ade68b6g18f5fda3",
+                    "desc": "Fear of the Dark",
+                    "url": "\/iron-maiden\/discografia\/fear-of-the-dark.html",
+                    "year": "1992"
+                },
+                {
+                    "id": "3ade68b6g68f5fda3",
+                    "desc": "No Prayer for the Dying",
+                    "url": "\/iron-maiden\/discografia\/no-prayer-for-the-dying.html",
+                    "year": "1990"
+                },
+                {
+                    "id": "3ade68b6g28f5fda3",
+                    "desc": "Seventh Son of a Seventh Son",
+                    "url": "\/iron-maiden\/discografia\/seventh-son-of-a-seventh-son.html",
+                    "year": "1988"
+                },
+                {
+                    "id": "3ade68b6g98f5fda3",
+                    "desc": "Somewhere in Time",
+                    "url": "\/iron-maiden\/discografia\/somewhere-in-time.html",
+                    "year": "1986"
+                },
+                {
+                    "id": "3ade68b6g88f5fda3",
+                    "desc": "Live After Death",
+                    "url": "\/iron-maiden\/discografia\/live-after-death.html",
+                    "year": "1985"
+                },
+                {
+                    "id": "3ade68b6g48f5fda3",
+                    "desc": "Powerslave",
+                    "url": "\/iron-maiden\/discografia\/powerslave.html",
+                    "year": "1984"
+                },
+                {
+                    "id": "3ade68b6gb7f5fda3",
+                    "desc": "Piece of Mind",
+                    "url": "\/iron-maiden\/discografia\/piece-of-mind.html",
+                    "year": "1983"
+                },
+                {
+                    "id": "3ade68b6gc8f5fda3",
+                    "desc": "The Number of the Beast",
+                    "url": "\/iron-maiden\/discografia\/the-number-of-the-beast.html",
+                    "year": "1982"
+                },
+                {
+                    "id": "3ade68b6g7daafda3",
+                    "desc": "Maiden Japan",
+                    "url": "\/iron-maiden\/discografia\/maiden-japan.html",
+                    "year": "1981"
+                },
+                {
+                    "id": "3ade68b6g38f5fda3",
+                    "desc": "Killers",
+                    "url": "\/iron-maiden\/discografia\/killers.html",
+                    "year": "1981"
+                },
+                {
+                    "id": "3ade68b6g58f5fda3",
+                    "desc": "Iron Maiden",
+                    "url": "\/iron-maiden\/discografia\/iron-maiden.html",
+                    "year": "1980"
+                },
+                {
+                    "id": "3ade68b6ga69dfda3",
+                    "desc": "The Soundhouse Tapes",
+                    "url": "\/iron-maiden\/discografia\/the-soundhouse-tapes.html",
+                    "year": "1979"
+                }
+            ]
+        }
+    }
+}
+

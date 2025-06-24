@@ -1,0 +1,49 @@
+[
+    {
+        "images": [
+            {
+                "width": 640,
+                "url": "https://i.scdn.co/image/ab6761610000e5ebc717887800e7d7f537e06736",
+                "height": 640
+            },
+            {
+                "width": 320,
+                "url": "https://i.scdn.co/image/ab67616100005174c717887800e7d7f537e06736",
+                "height": 320
+            },
+            {
+                "width": 160,
+                "url": "https://i.scdn.co/image/ab6761610000f178c717887800e7d7f537e06736",
+                "height": 160
+            }
+        ],
+        "followers": {
+            "total": 357915,
+            "href": null
+        },
+        "genres": [
+            "brazilian metal",
+            "brazilian power metal",
+            "brazilian progressive metal",
+            "latin metal",
+            "metal",
+            "neo classical metal",
+            "power metal",
+            "progressive metal",
+            "progressive power metal",
+            "speed metal",
+            "symphonic metal"
+        ],
+        "popularity": 51,
+        "name": "ANGRA",
+        "href": "https://api.spotify.com/v1/artists/7IAXZaLTb6nkJr8RmVPn5y",
+        "id": "7IAXZaLTb6nkJr8RmVPn5y",
+        "type": "artist",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/artist/7IAXZaLTb6nkJr8RmVPn5y"
+        },
+        "uri": "spotify:artist:7IAXZaLTb6nkJr8RmVPn5y"
+    }
+]
+
+

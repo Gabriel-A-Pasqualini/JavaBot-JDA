@@ -1,0 +1,29 @@
+token.txt
+<<<<<<< HEAD
+=======
+tokentst.txt
+>>>>>>> 3b8c3b29062bf6412a60a4ffdf1e2db154c8302d
+hippocrates.txt
+hippocratestwo.txt
+<<<<<<< HEAD
+src/main/java/bot/alexander/apis/apiconfig.java.ew
+src/main/java/bot/alexander/Commands/CommandConfig.java.ew
+src/main/java/bot/alexander/Commands/HippocratesCommands.java.ew
+=======
+src/main/java/bot/alexander/apis/apiconfig.java
+src/main/java/bot/alexander/Commands/CommandConfig.java
+src/main/java/bot/alexander/Commands/HippocratesCommands.java
+<<<<<<< HEAD
+.fake
+=======
+>>>>>>> 2cc2d5077064109d0597411afbd9db86332abbea
+.json
+squarecloud.app
+test.json
+bot.jar
+alexander.jar
+<<<<<<< HEAD
+.vscode
+=======
+>>>>>>> 3b8c3b29062bf6412a60a4ffdf1e2db154c8302d
+>>>>>>> 2cc2d5077064109d0597411afbd9db86332abbea
