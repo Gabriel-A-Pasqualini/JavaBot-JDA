@@ -18,8 +18,7 @@ public class ImageGemCommands extends ListenerAdapter{
                 if (parts.length < 2) {
                     System.out.println("Comando 'img' encontrado, mas sem parâmetro.");
                     return;
-                }
-                String image = parts[1].trim(); 
+                } 
 
                 EmbedBuilder info = new EmbedBuilder();
                 info.setTitle("📝 Desenhando: ");
