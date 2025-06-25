@@ -14,7 +14,7 @@ import  bot.alexander.service.ColorService;
 public class SpotifyCommands extends ListenerAdapter{
     
     final String SEARCH_URL = "https://accounts.spotify.com/api/token";
-
+ 
     @Override
     public void onSlashCommandInteraction(SlashCommandInteractionEvent event) {
         if (!event.getName().equals("spotify")) return;
