@@ -29,9 +29,9 @@
     </dependency>
     
     <dependency>
-      <groupId>net.dv8tion</groupId>
-      <artifactId>JDA</artifactId>
-      <version>5.0.0-alpha.7</version>
+        <groupId>net.dv8tion</groupId>
+        <artifactId>JDA</artifactId>
+        <version>5.6.1</version>
     </dependency>
   
     <dependency>
@@ -51,7 +51,12 @@
       <artifactId>okhttp</artifactId>
       <version>4.9.1</version>
     </dependency>
-
+    
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.10</version>
+    </dependency>
   </dependencies>
   
 

@@ -2,9 +2,6 @@ package bot.alexander.Commands;
 
 import bot.alexander.apis.movie;
 import bot.alexander.alexander;
-
-import javax.annotation.Nonnull;
-
 import org.json.JSONObject;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
@@ -14,7 +11,7 @@ public class MovieCommands extends ListenerAdapter {
 
     String prefix = alexander.prefix;
 
-    public void onMessageReceived(@Nonnull MessageReceivedEvent event) {
+    public void onMessageReceived(MessageReceivedEvent event) {
 
         String message = event.getMessage().getContentRaw();
 
@@ -44,7 +41,7 @@ public class MovieCommands extends ListenerAdapter {
                 event.getChannel().sendMessageEmbeds(info.build()).queue();
 
                 info.clear();
-            } catch (ArrayIndexOutOfBoundsException e) {
+            } catch(ArrayIndexOutOfBoundsException e) {
 
             }
         }

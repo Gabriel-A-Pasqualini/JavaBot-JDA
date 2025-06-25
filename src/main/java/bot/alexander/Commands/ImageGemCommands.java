@@ -9,24 +9,28 @@ public class ImageGemCommands extends ListenerAdapter{
     
     String prefix = alexander.prefix;
 
-    @Override
     public void onMessageReceived(MessageReceivedEvent event) {
-
-
         String message = event.getMessage().getContentRaw();
-        String image = message.split("img")[1];        
-        if (message.startsWith(prefix + "img" +image)) {
+
+        if (message.startsWith(prefix + "img")) {
             try {
+                String[] parts = message.split("img", 2);
+                if (parts.length < 2) {
+                    System.out.println("Comando 'img' encontrado, mas sem parâmetro.");
+                    return;
+                }
+                String image = parts[1].trim(); 
+
                 EmbedBuilder info = new EmbedBuilder();
                 info.setTitle("📝 Desenhando: ");
-                info.addField("Vou gerar sua imagem ", "....", false);
+                info.addField("Vou gerar sua imagem", "....", false);
                 info.setColor(0xab0a1d);
 
                 event.getChannel().sendTyping().queue();
-                event.getChannel().sendMessageEmbeds(info.build()).complete();
+                event.getChannel().sendMessageEmbeds(info.build()).queue();
                 info.clear();
-            } catch (ArrayIndexOutOfBoundsException e) {
-                System.out.println("Não foi possivel gerar a imagem: "+e);
+            } catch (Exception e) {
+                System.out.println("Não foi possível gerar a imagem: " + e);
             }
         }
     }
