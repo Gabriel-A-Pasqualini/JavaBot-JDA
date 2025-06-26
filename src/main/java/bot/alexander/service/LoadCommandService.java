@@ -4,12 +4,9 @@ import bot.alexander.Commands.AnimeCommands;
 import bot.alexander.Commands.ArtistCommands;
 import bot.alexander.Commands.CommandConfig;
 import bot.alexander.Commands.HelpCommands;
-import bot.alexander.Commands.HippocratesCommands;
-import bot.alexander.Commands.ImageGemCommands;
 import bot.alexander.Commands.MovieCommands;
 import bot.alexander.Commands.PingCommands;
 import bot.alexander.Commands.SpotifyCommands;
-import bot.alexander.Commands.YugiohCommand;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Guild;
@@ -25,7 +22,13 @@ public class LoadCommandService {
                     .addCommands(
                         Commands.slash("ping", "Responde com pong"),
                         Commands.slash("spotify", "Busca artista no Spotify")
-                            .addOption(OptionType.STRING, "artista", "Nome do artista", true)
+                            .addOption(OptionType.STRING, "artista", "Nome do artista", true),
+                        Commands.slash("34", "Voce saber o que busca aqui")
+                            .addOption(OptionType.STRING, "personagem", "Nome do personagem", true),
+                        Commands.slash("artist", "Busco seu artista no Vagalume")     
+                            .addOption(OptionType.STRING, "artista", "Nome do artista", true),
+                        Commands.slash("filme", "Busco seu sobre seu filme")     
+                            .addOption(OptionType.STRING, "filme", "Nome do filme (em ingles)", true)                                                                                        
                     )
                     .queue();
                 System.out.println("Registrado em: " + guild.getId());
@@ -45,9 +48,26 @@ public class LoadCommandService {
             ).queue();
 
             jda.upsertCommand(
-                Commands.slash("spotify", "Busca artista no Spotify")
+                Commands.slash("spotify", "Busca seu artista no Spotify")
                     .addOption(OptionType.STRING, "artista", "Nome do artista", true)          
-            ).queue();                                         
+            ).queue(); 
+            
+            jda.upsertCommand(
+                Commands.slash("34", "Voce saber o que busca aqui")     
+                    .addOption(OptionType.STRING, "personagem", "Nome do personagem", true) 
+                    .setNSFW(true)    
+            ).queue();    
+            
+            jda.upsertCommand(
+                Commands.slash("artista", "Busco deu artista no Vagalume")     
+                    .addOption(OptionType.STRING, "artista", "Nome do artista", true)     
+            ).queue();    
+            
+            jda.upsertCommand(
+                Commands.slash("filme", "Busco seu sobre seu filme")     
+                    .addOption(OptionType.STRING, "filme", "Nome do filme (em ingles)", true)                        
+            ).queue();                
+            
             return true;
         }
         catch(Exception e){
@@ -65,9 +85,6 @@ public class LoadCommandService {
             builder.addEventListeners(new MovieCommands());
             builder.addEventListeners(new AnimeCommands());
             builder.addEventListeners(new CommandConfig());
-            builder.addEventListeners(new YugiohCommand());
-            builder.addEventListeners(new HippocratesCommands());
-            builder.addEventListeners(new ImageGemCommands());
             builder.addEventListeners(new PingCommands());            
                         
             return true;

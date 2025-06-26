@@ -1,82 +1,96 @@
 package bot.alexander.Commands;
 
-import bot.alexander.alexander;
+import java.io.IOException;
+import java.util.List;
+import java.util.stream.Collectors;
 import bot.alexander.apis.song;
-import org.json.JSONArray;
-import org.json.JSONObject;
+import bot.alexander.service.ColorService;
+
+import com.google.gson.Gson;
 import net.dv8tion.jda.api.EmbedBuilder;
-import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
+import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
-
 public class ArtistCommands extends ListenerAdapter {
-    
-    String prefix = alexander.prefix;
 
-   @Override 
-    public void onMessageReceived(MessageReceivedEvent event) {
+    @Override
+    public void onSlashCommandInteraction(SlashCommandInteractionEvent event) {
+        if (!event.getName().equals("artista")) return;
+        
+        event.deferReply().queue();
+        String name = event.getOption("artista").getAsString();
 
-        String message = event.getMessage().getContentRaw();
-
-        if (message.startsWith(prefix + "artist")) {
-            try {
-                String[] parts = message.split("artist", 2);
-                if (parts.length < 2) {
-                    event.getChannel().sendMessage("❌ Você precisa informar o nome do artista.").queue();
-                    return;
-                }
-
-                String artist = parts[1].trim();
-
-                String jsonResponse = song.searchBand(artist);
-                JSONObject obj = new JSONObject(jsonResponse);
-
-                JSONObject artists = obj.getJSONObject("artist");
-                JSONArray genres = artists.getJSONArray("genre");
-
-                JSONObject albums = artists.getJSONObject("albums");
-                JSONArray item = albums.getJSONArray("item");
-
-                JSONObject toplyrics = artists.getJSONObject("toplyrics");
-                JSONArray songs = toplyrics.getJSONArray("item");
-
-                String[] genresList = new String[genres.length()];
-                for (int i = 0; i < genres.length(); i++) {
-                    JSONObject aux = genres.getJSONObject(i);
-                    genresList[i] = aux.getString("name");
-                }
-
-                String[] itemList = new String[item.length()];
-                for (int i = 0; i < item.length(); i++) {
-                    JSONObject aux = item.getJSONObject(i);
-                    itemList[i] = aux.getString("desc") + " - " + aux.getString("year");
-                }
-
-                int len = Math.min(5, songs.length());
-                String[] topmusics = new String[len];
-                for (int i = 0; i < len; i++) {
-                    JSONObject aux = songs.getJSONObject(i);
-                    topmusics[i] = aux.getString("desc");
-                }
-
-                String img = artists.getString("pic_medium");
-                String imgUrl = "https://www.vagalume.com.br" + img;
-
-                EmbedBuilder info = new EmbedBuilder();
-                info.setTitle("Artist: " + artists.getString("desc"));
-                info.addField("Genres: ", String.join(" / ", genresList), false);
-                info.addField("Top " + len + " song's: ", String.join("\n", topmusics), false);
-                info.addField("Albums: ", String.join("\n", itemList), false);
-                info.addField("Spotify: ", "https://open.spotify.com/search/" + artist.replace(" ", "%20"), false);
-                info.setThumbnail(imgUrl);
-                info.setColor(0xab0a1d);
-
-                event.getChannel().sendTyping().queue();
-                event.getChannel().sendMessageEmbeds(info.build()).queue();
-
-            } catch (Exception e) {
-                System.out.println("Artist error 1: " + e);
-                event.getChannel().sendMessage("❌ Ocorreu um erro ao buscar o artista.").queue();
+        try {
+            Artist artist = fetchArtist(name);
+            if (artist == null) {
+                event.getHook().sendMessage("❌ Artista não encontrado: " + name).queue();
+                return;
             }
+
+            List<String> genres = listGenres(artist);
+            List<String> albums = listAlbumDesc(artist);
+            List<String> songs = listTopSongs(artist);
+
+            String imgUrl = "https://www.vagalume.com.br" + artist.pic_medium;
+
+            EmbedBuilder eb = new EmbedBuilder()
+                .setTitle("Artist: " + artist.desc)
+                .setDescription("https://www.vagalume.com.br/"+artist.desc.toLowerCase().replace(" ", "-")+"/")
+                .addField("Genres", String.join(" | ", genres), false)
+                .addField("Top " + songs.size() + " songs",  "  \u2022 " + String.join("\n\u2022   ", songs), false)
+                .addField("10 ultimos albums", "  \u2022 " + String.join("\n\u2022   ", albums), false)
+                .addField("Spotify", "https://open.spotify.com/search/" + artist.desc.replace(" ", "%20"), false)
+                .setThumbnail(imgUrl)
+                .setColor(ColorService.convertColor("#CCFF00"));
+
+            event.getHook().sendMessageEmbeds(eb.build()).queue();
+
+        } catch (Exception ex) {
+            event.getHook().sendMessage("❌ Ocorreu um erro ao buscar o artista.").queue();
+            ex.printStackTrace();
         }
-    }    
+    }   
+
+    private Artist fetchArtist(String artistName) throws IOException {
+        String json = song.searchBand(artistName);
+        ArtistResponse resp = new Gson().fromJson(json, ArtistResponse.class);
+        return resp.artist;
+    }
+
+    private List<String> listAlbumDesc(Artist artist) {
+        return artist.albums.item.stream()
+            .map(a -> a.desc + " - " + a.year)
+                        .limit(10)
+                        .collect(Collectors.toList());
+    }
+
+    private List<String> listTopSongs(Artist artist) {
+        return artist.toplyrics.item.stream()
+            .limit(5)
+            .map(m -> m.desc)
+            .collect(Collectors.toList());
+    }
+
+    private List<String> listGenres(Artist artist) {
+        return artist.genre.stream()
+            .map(g -> g.name)
+            .collect(Collectors.toList());
+    }
+
+
+    class ArtistResponse {
+        Artist artist;
+    }
+    class Artist {
+        String desc;
+        List<Genre> genre;
+        Albums albums;
+        TopLyrics toplyrics;
+        String pic_medium;
+    }
+    class Genre { String name; }
+    class Albums { List<Album> item; }
+    class Album { String desc, year; }
+    class TopLyrics { List<Music> item; }
+    class Music { String desc; }    
 }
+
