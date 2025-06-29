@@ -5,12 +5,12 @@ import java.util.List;
 import java.util.stream.Collectors;
 import org.json.JSONObject;
 import com.google.gson.Gson;
+import bot.alexander.alexander;
 import bot.alexander.Classes.SpotifyClasses.ArtistItem;
 import bot.alexander.Classes.SpotifyClasses.SpotifySearch;
 import bot.alexander.Classes.SpotifyClasses.TrackSearch;
 import bot.alexander.apis.ApiSpotify;
 import bot.alexander.apis.TokenSpotify.TokenSpotify;
-import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import  bot.alexander.service.ColorService;
@@ -38,17 +38,17 @@ public class SpotifyCommands extends ListenerAdapter{
 
             List<String> topTracks = fetchTopTracks(token, artist.id, 10);
 
-            EmbedBuilder eb = new EmbedBuilder()
-            .setTitle("🎸   " + artist.name, "https://open.spotify.com/artist/" + artist.id)
-            .setThumbnail(artist.images.get(0).url)
-            .setFooter(artist.name, artist.images.get(0).url)
-            .setDescription("Here some informations about "+ artist.name)
-            .addField("Followers", String.valueOf(artist.followers.total), true)
-            .addField("Genres", String.join(" | ", artist.genres), false)
-            .addField("Top 10 Tracks :", "  \u2022 " + String.join("\n\u2022   ", topTracks), false)                                
-            .setColor(ColorService.convertColor("#1DB954"));
+            alexander.embed.setTitle("🎸   " + artist.name, "https://open.spotify.com/artist/" + artist.id);
+            alexander.embed.setThumbnail(artist.images.get(0).url);
+            alexander.embed.setFooter(artist.name, artist.images.get(0).url);
+            alexander.embed.setDescription("Here some informations about "+ artist.name);
+            alexander.embed.addField("Followers", String.valueOf(artist.followers.total), true);
+            alexander.embed.addField("Genres", String.join(" | ", artist.genres), false);
+            alexander.embed.addField("Top 10 Tracks :", "  \u2022 " + String.join("\n\u2022   ", topTracks), false);                             
+            alexander.embed.setColor(ColorService.convertColor("#1DB954"));
 
-            event.getHook().sendMessageEmbeds(eb.build()).queue();
+            event.getHook().sendMessageEmbeds(alexander.embed.build()).queue();
+            alexander.embed.clear();
 
         } catch (Exception ex) {
             event.getHook().sendMessage("❌ Erro ao buscar "+name+"").queue();

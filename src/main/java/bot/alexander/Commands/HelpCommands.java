@@ -1,7 +1,7 @@
 package bot.alexander.Commands;
 
+import bot.alexander.alexander;
 import bot.alexander.service.ColorService;
-import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
@@ -22,31 +22,28 @@ public class HelpCommands extends ListenerAdapter{
                 String serverId = event.getGuild().getId(); 
                 String serverName = event.getGuild().getName(); 
 
-                EmbedBuilder info = new EmbedBuilder();
-                info.setTitle("📋 Suas informações: ");
-                info.setThumbnail(event.getUser().getAvatarUrl());
-                info.addField(" ID","\u2022 " + userId, false);
-                info.addField(" Nome","\u2022 " + username, false);
-                info.addField(" Tag","\u2022 " + tag, false);
-                info.addField(" Nick","\u2022 " + nick, false);
-                info.addField(" ID Servidor","\u2022 " + serverId, false);
-                info.addField(" Nome Servidor","\u2022 " + serverName, false);
-                info.setColor(ColorService.convertColor("#e6eae1"));
+                alexander.embed.setTitle("📋 Suas informações: ");
+                alexander.embed.setThumbnail(event.getUser().getAvatarUrl());
+                alexander.embed.addField(" ID","\u2022 " + userId, false);
+                alexander.embed.addField(" Nome","\u2022 " + username, false);
+                alexander.embed.addField(" Tag","\u2022 " + tag, false);
+                alexander.embed.addField(" Nick","\u2022 " + nick, false);
+                alexander.embed.addField(" ID Servidor","\u2022 " + serverId, false);
+                alexander.embed.addField(" Nome Servidor","\u2022 " + serverName, false);
+                alexander.embed.setColor(ColorService.convertColor("#e6eae1"));
 
                 event.getChannel().sendTyping().queue();
-                event.getHook().sendMessageEmbeds(info.build()).queue();
-
-                info.clear();
+                event.getHook().sendMessageEmbeds(alexander.embed.build()).queue();
+                alexander.embed.clear();
                     
             } catch (ArrayIndexOutOfBoundsException e) {
                 System.out.println("help java não esta funcionando: "+e.getMessage());
 
-                EmbedBuilder info = new EmbedBuilder();
-                info.setTitle("Suas informações: ");
-                info.addField("Erro: ",e.getMessage(), false);  
+                alexander.embed.setTitle("Suas informações: ");
+                alexander.embed.addField("Erro: ",e.getMessage(), false);  
 
                 event.getChannel().sendTyping().queue();
-                event.getHook().sendMessageEmbeds(info.build()).queue();
+                event.getHook().sendMessageEmbeds(alexander.embed.build()).queue();
             }
         }
     }    

@@ -4,7 +4,6 @@ import bot.alexander.alexander;
 import bot.alexander.apis.api;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import org.json.JSONObject;
-import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
 public class AdviceCommands extends ListenerAdapter {
@@ -19,14 +18,15 @@ public class AdviceCommands extends ListenerAdapter {
 
                 JSONObject obj = (new JSONObject(jsonResponse)).getJSONObject("slip");
 
-                EmbedBuilder info = new EmbedBuilder();
-                info.setTitle("⚖ Your advice is: ");
-                info.addField("advice: ", obj.getString("advice"), true);
-                info.setColor(0xab0a1d);
+                alexander.embed.setTitle("⚖ Your advice is: ");
+                alexander.embed.addField("advice: ", obj.getString("advice"), true);
+                alexander.embed.setColor(0xab0a1d);
 
                 event.getChannel().sendTyping().queue();
-                event.getChannel().sendMessageEmbeds(info.build()).queue();
-                info.clear();
+                event.getChannel().sendMessageEmbeds(alexander.embed.build()).queue();
+
+                alexander.embed.clear();
+
             } catch (ArrayIndexOutOfBoundsException e) {
 
             }

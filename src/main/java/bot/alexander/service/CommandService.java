@@ -12,7 +12,7 @@ import net.dv8tion.jda.api.entities.Guild;
 import net.dv8tion.jda.api.interactions.commands.OptionType;
 import net.dv8tion.jda.api.interactions.commands.build.Commands;
 
-public class LoadCommandService {
+public class CommandService {
 
     public static boolean regitraSlashCommandsGuild(JDA jda){
         try{
