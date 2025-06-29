@@ -5,7 +5,6 @@ import bot.alexander.Commands.ArtistCommands;
 import bot.alexander.Commands.CommandConfig;
 import bot.alexander.Commands.HelpCommands;
 import bot.alexander.Commands.MovieCommands;
-import bot.alexander.Commands.PingCommands;
 import bot.alexander.Commands.SpotifyCommands;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
@@ -20,7 +19,6 @@ public class LoadCommandService {
             for (Guild guild : jda.getGuilds()) {
                 guild.updateCommands()
                     .addCommands(
-                        Commands.slash("ping", "Responde com pong"),
                         Commands.slash("spotify", "Busca artista no Spotify")
                             .addOption(OptionType.STRING, "artista", "Nome do artista", true),
                         Commands.slash("34", "Voce saber o que busca aqui")
@@ -28,7 +26,8 @@ public class LoadCommandService {
                         Commands.slash("artist", "Busco seu artista no Vagalume")     
                             .addOption(OptionType.STRING, "artista", "Nome do artista", true),
                         Commands.slash("filme", "Busco seu sobre seu filme")     
-                            .addOption(OptionType.STRING, "filme", "Nome do filme (em ingles)", true)                                                                                        
+                            .addOption(OptionType.STRING, "filme", "Nome do filme (em ingles)", true),    
+                        Commands.slash("eu", "Minhas informações")                                                                                                              
                     )
                     .queue();
                 System.out.println("Registrado em: " + guild.getId());
@@ -43,10 +42,6 @@ public class LoadCommandService {
 
     public static boolean regitraSlashCommands(JDA jda){
         try{
-            jda.upsertCommand(
-                Commands.slash("ping", "Responde com pong")         
-            ).queue();
-
             jda.upsertCommand(
                 Commands.slash("spotify", "Busca seu artista no Spotify")
                     .addOption(OptionType.STRING, "artista", "Nome do artista", true)          
@@ -66,7 +61,11 @@ public class LoadCommandService {
             jda.upsertCommand(
                 Commands.slash("filme", "Busco seu sobre seu filme")     
                     .addOption(OptionType.STRING, "filme", "Nome do filme (em ingles)", true)                        
-            ).queue();                
+            ).queue();    
+            
+            jda.upsertCommand(
+                Commands.slash("eu", "Minhas informações")                       
+            ).queue();               
             
             return true;
         }
@@ -84,8 +83,7 @@ public class LoadCommandService {
             builder.addEventListeners(new AdviceCommands());
             builder.addEventListeners(new MovieCommands());
             builder.addEventListeners(new AnimeCommands());
-            builder.addEventListeners(new CommandConfig());
-            builder.addEventListeners(new PingCommands());            
+            builder.addEventListeners(new CommandConfig());         
                         
             return true;
         }

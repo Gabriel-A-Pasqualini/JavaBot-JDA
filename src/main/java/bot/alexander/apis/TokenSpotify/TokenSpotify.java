@@ -27,12 +27,10 @@ public class TokenSpotify {
         try (Response response = client.newCall(request).execute()) {
             String responseBody = response.body().string();
             
-            System.out.println("Response API, new Spotify Token\n"+responseBody);
             return responseBody;
         }
         catch (IOException e) {
-               return "Erro: "+e;
-            
+               return "Erro: "+e;            
         }         
     }
 }

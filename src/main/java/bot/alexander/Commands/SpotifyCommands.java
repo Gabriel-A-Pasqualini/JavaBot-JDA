@@ -1,9 +1,13 @@
 package bot.alexander.Commands;
+
 import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 import org.json.JSONObject;
 import com.google.gson.Gson;
+import bot.alexander.Classes.SpotifyClasses.ArtistItem;
+import bot.alexander.Classes.SpotifyClasses.SpotifySearch;
+import bot.alexander.Classes.SpotifyClasses.TrackSearch;
 import bot.alexander.apis.ApiSpotify;
 import bot.alexander.apis.TokenSpotify.TokenSpotify;
 import net.dv8tion.jda.api.EmbedBuilder;
@@ -47,7 +51,7 @@ public class SpotifyCommands extends ListenerAdapter{
             event.getHook().sendMessageEmbeds(eb.build()).queue();
 
         } catch (Exception ex) {
-            event.getHook().sendMessage("❌ Erro ao buscar artista.").queue();
+            event.getHook().sendMessage("❌ Erro ao buscar "+name+"").queue();
             ex.printStackTrace();
         }
     }
@@ -61,26 +65,6 @@ public class SpotifyCommands extends ListenerAdapter{
     private List<String> fetchTopTracks(String token, String artistId, int limit) throws IOException, InterruptedException {
         String resp = ApiSpotify.searchTracksSpotify(token, artistId);
         TrackSearch ts = new Gson().fromJson(resp, TrackSearch.class);
-        return ts.tracks.stream()
-                        .map(t -> t.name)
-                        .limit(limit)
-                        .collect(Collectors.toList());
-    }    
-
-    class SpotifySearch {
-        Artists artists;
-    }
-    class Artists {
-        List<ArtistItem> items;
-    }
-    class ArtistItem {
-        String id, name;
-        List<Image> images;
-        List<String> genres;
-        Followers followers;
-    }
-    class Image { String url; }
-    class Followers { int total; }
-    class TrackSearch { List<Track> tracks; }
-    class Track { String name; }    
+        return ts.tracks.stream().map(t -> t.name).limit(limit).collect(Collectors.toList());
+    }       
 }

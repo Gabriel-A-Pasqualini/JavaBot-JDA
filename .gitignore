@@ -1,8 +1,5 @@
 token.txt
-<<<<<<< HEAD
-=======
 tokentst.txt
->>>>>>> 3b8c3b29062bf6412a60a4ffdf1e2db154c8302d
 hippocrates.txt
 hippocratestwo.txt
 <<<<<<< HEAD
@@ -22,6 +19,7 @@ squarecloud.app
 test.json
 bot.jar
 alexander.jar
+.sql
 <<<<<<< HEAD
 .vscode
 =======

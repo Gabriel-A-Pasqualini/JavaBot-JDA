@@ -3,9 +3,10 @@ package bot.alexander.Commands;
 import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
+import bot.alexander.Classes.ArtistClasses.Artist;
+import bot.alexander.Classes.ArtistClasses.ArtistResponse;
 import bot.alexander.apis.song;
 import bot.alexander.service.ColorService;
-
 import com.google.gson.Gson;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEvent;
@@ -75,22 +76,5 @@ public class ArtistCommands extends ListenerAdapter {
             .map(g -> g.name)
             .collect(Collectors.toList());
     }
-
-
-    class ArtistResponse {
-        Artist artist;
-    }
-    class Artist {
-        String desc;
-        List<Genre> genre;
-        Albums albums;
-        TopLyrics toplyrics;
-        String pic_medium;
-    }
-    class Genre { String name; }
-    class Albums { List<Album> item; }
-    class Album { String desc, year; }
-    class TopLyrics { List<Music> item; }
-    class Music { String desc; }    
 }
 
