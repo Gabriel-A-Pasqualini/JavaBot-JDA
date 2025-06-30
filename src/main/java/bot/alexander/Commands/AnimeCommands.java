@@ -4,47 +4,42 @@ import bot.alexander.alexander;
 import bot.alexander.apis.myanimelistAip;
 import org.json.JSONArray;
 import org.json.JSONObject;
-import net.dv8tion.jda.api.EmbedBuilder;
-import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
+import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
 public class AnimeCommands extends ListenerAdapter {
 
-    String prefix = alexander.prefix;
+    public void onSlashCommandInteraction(SlashCommandInteractionEvent event) {
 
-    public void onMessageReceived(MessageReceivedEvent event) {
+        if (!event.getName().equals("anime")) return;
 
-        String message = event.getMessage().getContentRaw();
-        if (message.startsWith(prefix + "anime")) {
-            try {
-                String title = message.split("anime")[1];
-                String jsonResponse = myanimelistAip.searchAnime(title);
-                JSONObject obj = new JSONObject(jsonResponse);
-                JSONArray objaux = obj.getJSONArray("data");
-                JSONObject f = objaux.getJSONObject(0);
-                EmbedBuilder info = new EmbedBuilder();
-                float score_float = f.getFloat("score");
-                String score = String.valueOf(score_float);
+        event.deferReply().queue();
+        String name = event.getOption("anime").getAsString();
 
-                info.setTitle("🍣 🍜 Information about the Anime: " + f.getString("title") + "");
-                info.addField("Score: ",score , true);
-                info.addField("Type: ", f.getString("type"), true);
-                float x2 = f.getFloat("episodes");
-                String s2 = String.valueOf(x2);
-                info.addField("Number of episodes: ", s2, true);
-                //info.addField("Start date: ", f.getString("start_date").split("T")[0], true);
-                //info.addField("End date: ", f.getString("end_date").split("T")[0], true);
-                info.addField("Synopsis: ", f.getString("synopsis"), false);
-                //info.setImage(f.getString("image_url")); // info.setImage or info.setThumbnail
-                info.setColor(0xab0a1d);
-                event.getChannel().sendTyping().queue();
-                event.getChannel().sendMessageEmbeds(info.build()).queue();
+        try {
+            String jsonResponse = myanimelistAip.searchAnime(name);
+            JSONObject obj = new JSONObject(jsonResponse);
+            JSONArray objaux = obj.getJSONArray("data");
+            JSONObject f = objaux.getJSONObject(0);
+            float score_float = f.getFloat("score");
+            String score = String.valueOf(score_float);
+            float x2 = f.getFloat("episodes");
+            String s2 = String.valueOf(x2);
 
-                info.clear();
+            alexander.embed.setTitle("🍣 🍜 Information about the Anime: " + f.getString("title") + "");
+            alexander.embed.addField("Score: ",score , true);
+            alexander.embed.addField("Type: ", f.getString("type"), true);
+            alexander.embed.addField("Number of episodes: ", s2, true);
+            alexander.embed.addField("Synopsis: ", f.getString("synopsis"), false);
+            alexander.embed.setColor(0xab0a1d);
+            
+            event.getChannel().sendTyping().queue();
+            event.getHook().sendMessageEmbeds(alexander.embed.build()).queue();
 
-            } catch (ArrayIndexOutOfBoundsException e) {
-                System.out.println("AnimeCommand - Error: "+e);
-            }
-        }
+            alexander.embed.clear();
+
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("AnimeCommand - Error: "+e);
+        }        
     }
 }

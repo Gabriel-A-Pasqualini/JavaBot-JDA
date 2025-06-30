@@ -13,7 +13,6 @@ import bot.alexander.service.CommandService;
 
 public class alexander {
     
-    public static String prefix="?";
     public static EmbedBuilder embed = new EmbedBuilder();
      
     public static void main(String[] args) throws Exception {

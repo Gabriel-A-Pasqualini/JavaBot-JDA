@@ -8,8 +8,6 @@ import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
 public class MovieCommands extends ListenerAdapter {
 
-    String prefix = alexander.prefix;
-
     public void onSlashCommandInteraction(SlashCommandInteractionEvent event) {
         if (!event.getName().equals("filme")) return;
         

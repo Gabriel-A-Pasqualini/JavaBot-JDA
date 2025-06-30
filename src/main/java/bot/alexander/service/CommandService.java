@@ -6,6 +6,7 @@ import bot.alexander.Commands.CommandConfig;
 import bot.alexander.Commands.HelpCommands;
 import bot.alexander.Commands.MovieCommands;
 import bot.alexander.Commands.SpotifyCommands;
+import bot.alexander.Commands.RegistraCommands;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Guild;
@@ -27,7 +28,11 @@ public class CommandService {
                             .addOption(OptionType.STRING, "artista", "Nome do artista", true),
                         Commands.slash("filme", "Busco seu sobre seu filme")     
                             .addOption(OptionType.STRING, "filme", "Nome do filme (em ingles)", true),    
-                        Commands.slash("eu", "Minhas informações")                                                                                                              
+                        Commands.slash("anime", "Informações do seu anime (MyAnimeList)")     
+                            .addOption(OptionType.STRING, "anime", "Nome do Anime", true),     
+                        Commands.slash("registrar", "Registra no Bot"),                                                          
+                        Commands.slash("eu", "Minhas informações"),
+                        Commands.slash("concelho", "Um concelho para voce")                                                                                                                                           
                     )
                     .queue();
                 System.out.println("Registrado em: " + guild.getId());
@@ -57,16 +62,29 @@ public class CommandService {
                 Commands.slash("artista", "Busco deu artista no Vagalume")     
                     .addOption(OptionType.STRING, "artista", "Nome do artista", true)     
             ).queue();    
-            
+
             jda.upsertCommand(
                 Commands.slash("filme", "Busco seu sobre seu filme")     
                     .addOption(OptionType.STRING, "filme", "Nome do filme (em ingles)", true)                        
             ).queue();    
+
+            jda.upsertCommand(
+                Commands.slash("anime", "Informações do seu anime (MyAnimeList)")     
+                    .addOption(OptionType.STRING, "anime", "Nome do Anime", true)
+            ).queue();                
             
             jda.upsertCommand(
                 Commands.slash("eu", "Minhas informações")                       
             ).queue();               
             
+            jda.upsertCommand(
+                Commands.slash("concelho", "Um concelho para voce")                        
+            ).queue();     
+            
+            jda.upsertCommand(
+                Commands.slash("registrar", "Registra no Bot")  
+            ).queue();    
+                                    
             return true;
         }
         catch(Exception e){
@@ -84,6 +102,7 @@ public class CommandService {
             builder.addEventListeners(new MovieCommands());
             builder.addEventListeners(new AnimeCommands());
             builder.addEventListeners(new CommandConfig());         
+            builder.addEventListeners(new RegistraCommands());         
                         
             return true;
         }

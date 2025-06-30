@@ -4,14 +4,12 @@ import bot.alexander.alexander;
 import bot.alexander.service.ColorService;
 import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
-
 public class HelpCommands extends ListenerAdapter{
 
     @Override
     public void onSlashCommandInteraction(SlashCommandInteractionEvent event) {
-        if (event.getName().equals("eu")){
 
-            event.deferReply().queue();
+        if (event.getName().equals("eu")){
 
             try {
             
@@ -35,8 +33,9 @@ public class HelpCommands extends ListenerAdapter{
                 event.getChannel().sendTyping().queue();
                 event.getHook().sendMessageEmbeds(alexander.embed.build()).queue();
                 alexander.embed.clear();
-                    
+
             } catch (ArrayIndexOutOfBoundsException e) {
+
                 System.out.println("help java não esta funcionando: "+e.getMessage());
 
                 alexander.embed.setTitle("Suas informações: ");
