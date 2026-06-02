@@ -18,7 +18,8 @@ public class alexander {
     public static void main(String[] args) throws Exception {
 
         DatabaseService.init("./appSettings.json");
-        String token = new String(Files.readAllBytes(Paths.get("./token.txt")));
+
+        String token = new String(Files.readAllBytes(Paths.get("./token.txt")));        
 
         JDABuilder builder = JDABuilder.createDefault(token,
             GatewayIntent.GUILD_MESSAGES,
@@ -26,11 +27,12 @@ public class alexander {
         );           
 
         if (CommandService.loadEvent(builder)) {
-            System.out.println("➡️ Eventos carregados");
+            System.out.println("Eventos carregados");
         }
 
         JDA jda = builder.build();
         jda.awaitReady();
+
 
         jda.getPresence().setStatus(OnlineStatus.ONLINE);
         jda.getPresence().setActivity(Activity.playing("Visual Studio Code"));
