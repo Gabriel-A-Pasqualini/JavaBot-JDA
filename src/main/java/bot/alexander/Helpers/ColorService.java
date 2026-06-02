@@ -1,4 +1,4 @@
-package bot.alexander.service;
+package bot.alexander.Helpers;
 
 import java.awt.Color;
 

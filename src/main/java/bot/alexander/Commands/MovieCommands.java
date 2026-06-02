@@ -1,7 +1,8 @@
 package bot.alexander.Commands;
 
-import bot.alexander.apis.movie;
 import bot.alexander.alexander;
+import bot.alexander.Apis.movie;
+
 import org.json.JSONObject;
 import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;

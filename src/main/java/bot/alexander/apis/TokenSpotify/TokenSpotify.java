@@ -1,4 +1,4 @@
-package bot.alexander.apis.TokenSpotify;
+package bot.alexander.Apis.TokenSpotify;
 import java.io.IOException;
 
 import okhttp3.FormBody;

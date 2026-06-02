@@ -1,4 +1,4 @@
-package bot.alexander.apis;
+package bot.alexander.Apis;
 
 import java.io.BufferedReader;
 import java.io.IOException;

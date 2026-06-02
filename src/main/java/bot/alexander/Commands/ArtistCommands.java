@@ -4,10 +4,12 @@ import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 import bot.alexander.alexander;
+import bot.alexander.Apis.song;
 import bot.alexander.Classes.ArtistClasses.Artist;
 import bot.alexander.Classes.ArtistClasses.ArtistResponse;
-import bot.alexander.apis.song;
-import bot.alexander.service.ColorService;
+import bot.alexander.Helpers.ColorService;
+import bot.alexander.Helpers.DebugMap;
+
 import com.google.gson.Gson;
 import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
@@ -18,6 +20,8 @@ public class ArtistCommands extends ListenerAdapter {
     public void onSlashCommandInteraction(SlashCommandInteractionEvent event) {
         if (!event.getName().equals("artista")) return;
         
+        DebugMap.DebugEvent(event.getUser().getAsTag(),event.getName());
+
         event.deferReply().queue();
         String name = event.getOption("artista").getAsString();
 

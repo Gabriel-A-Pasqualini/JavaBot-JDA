@@ -1,0 +1,26 @@
+# ==========================
+# Etapa de Build
+# ==========================
+FROM maven:3.9.9-eclipse-temurin-17 AS builder
+
+WORKDIR /app
+
+# Copia os arquivos do projeto
+COPY pom.xml .
+COPY src ./src
+
+# Compila o projeto
+RUN mvn clean package -DskipTests
+
+# ==========================
+# Etapa de Runtime
+# ==========================
+FROM eclipse-temurin:17-jre
+
+WORKDIR /app
+
+# Copia o jar gerado
+COPY --from=builder /app/target/*.jar app.jar
+
+# Executa o bot
+CMD ["java", "-jar", "app.jar"]

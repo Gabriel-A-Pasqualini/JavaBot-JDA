@@ -1,7 +1,8 @@
 package bot.alexander.Commands;
 
 import bot.alexander.alexander;
-import bot.alexander.apis.myanimelistAip;
+import bot.alexander.Apis.myanimelistAip;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEvent;

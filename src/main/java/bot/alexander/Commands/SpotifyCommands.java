@@ -6,14 +6,15 @@ import java.util.stream.Collectors;
 import org.json.JSONObject;
 import com.google.gson.Gson;
 import bot.alexander.alexander;
+import bot.alexander.Apis.ApiSpotify;
+import bot.alexander.Apis.TokenSpotify.TokenSpotify;
 import bot.alexander.Classes.SpotifyClasses.ArtistItem;
 import bot.alexander.Classes.SpotifyClasses.SpotifySearch;
 import bot.alexander.Classes.SpotifyClasses.TrackSearch;
-import bot.alexander.apis.ApiSpotify;
-import bot.alexander.apis.TokenSpotify.TokenSpotify;
+import bot.alexander.Helpers.ColorService;
+import bot.alexander.Helpers.DebugMap;
 import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
-import  bot.alexander.service.ColorService;
 
 public class SpotifyCommands extends ListenerAdapter{
     
@@ -22,6 +23,8 @@ public class SpotifyCommands extends ListenerAdapter{
     @Override
     public void onSlashCommandInteraction(SlashCommandInteractionEvent event) {
         if (!event.getName().equals("spotify")) return;
+
+        DebugMap.DebugEvent(event.getUser().getAsTag(),event.getName());
 
         String name = event.getOption("artista").getAsString();
         event.deferReply().queue();

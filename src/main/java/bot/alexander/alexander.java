@@ -32,16 +32,15 @@ public class alexander {
 
         JDA jda = builder.build();
         jda.awaitReady();
-
-
         jda.getPresence().setStatus(OnlineStatus.ONLINE);
-        jda.getPresence().setActivity(Activity.playing("Visual Studio Code"));
+        jda.getPresence().setActivity(Activity.customStatus("👾"));
+        
 
         if (CommandService.regitraSlashCommands(jda)) {
-            System.out.println("➡️ Comandos registrados");
+            System.out.println("Comandos registrados");
         }   
         if (CommandService.regitraSlashCommandsGuild(jda)) {
-            System.out.println("➡️ Comandos registrados");
+            System.out.println("Comandos registrados");
         }      
 
         System.out.println("🤖 Bot online e comandos registrados!");

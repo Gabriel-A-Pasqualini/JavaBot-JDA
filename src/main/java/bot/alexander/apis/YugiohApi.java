@@ -1,4 +1,4 @@
-package bot.alexander.apis;
+package bot.alexander.Apis;
 
 import java.io.IOException;
 import okhttp3.OkHttpClient;
